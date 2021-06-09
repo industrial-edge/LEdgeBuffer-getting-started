@@ -1,6 +1,6 @@
-# Writing good how-to or tutorial
+# High frequency data sampling to edge 
 
-Before you start writing, read the following materials how to write good documentation (including how-tos).
+In this example, it will be explained how to sample high frequency signals from a PLC and send these samples to the edge device.
 
 * [Google Developer style guide](https://developers.google.com/style)
 * [Technical writing Courses](https://developers.google.com/tech-writing)
@@ -40,7 +40,9 @@ Bellow you can find the structure of IE tow-to/tutorial
 
 ### Overview
 
-Why has been this how-to/tutorial created? What is the purpose?
+This how-to has been created as a straight forward example to sample PLC signals to the edge in asynchronic way, but keeping timestamps. 
+
+The purpose is to guide PLC users into the steps to connect their signals into the application "LEdgeBuffer" for the use case of reading the signals remotely and processing into the edge.
 
 ### General Task
 
@@ -52,21 +54,22 @@ What is the general goal/task of this how-to/tutorial?
 
 ### Prerequisites
 
-What are the requirements on the user knowledge, HW components before starting the how-to?
+User should be familiar with:
+* Node-red
+* PLC programming
+* TIA Portal V16
+* MQTT
 
 ### Used components
 
-List the used software and hardware components that were tested with this how-to.
-Add the used components here (e.g.)
-
-* Industrial Edge App Publisher V1.0.8
-* Docker Engine 18.09.6
-* Docker Compose V2.4
-* S7 Connector V 1.0.22
-* S7 Connector Configurator V 1.0.9
-* Industrial Edge Device V 1.0.0-34
-* TIA Portal V16
-* PLC: CPU 1511 FW 2.8.3
+*Industrial Edge Management (IEM) V1.2.14
+ *S7 Connector V1.2.26
+ *S7 Connector Configurator V1.2.37
+ *IE Databus V1.2.16
+ *IE Databus Configurator V1.2.29
+*Industrial Edge Device (IED) V1.2.0-56
+*TIA Portal V16
+*PLC: CPU 1511 FW 2.8.3
 
 ## Installation
 
