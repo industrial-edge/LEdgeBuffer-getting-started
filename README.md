@@ -1,4 +1,4 @@
-# How to sample high frequency signals from PLC to Edge Computing applications via MQTT (Using Node-RED, SIMATIC PLC and OPC-UA)
+# How to sample high frequency signals from a PLC to Edge Computing applications via OPC-UA and MQTT (Using Node-RED, SIMATIC PLC and OPC-UA)
 
 This document will take you through the basic steps and configuration of components required to set up a PLC program with the SIEMENS library "LEdgeBuffer" to  recording and send high frequency signals' data to an edge computing application using OPC-UA and Node-RED or SIEMENS Industrial flow creator.
 
@@ -38,7 +38,7 @@ The general task of this how to, it is to trace signals from a machine or user p
 
 
 
-![task](docs/graphics/example_graphic.png)
+![task](docs/graphics/LEdgeBuffer_diagram.svg)
 
 ## Requirements
 
