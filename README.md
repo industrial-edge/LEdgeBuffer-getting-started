@@ -5,8 +5,8 @@ This document will take you through the basic steps and configuration of compone
 The document intends to provide a quick start guide for testing the library locally with any SIMATIC PLC S7-1500 and Node-RED/SIEMENS Industrial Flow Creator.
 
 * [Writing good how-to or tutorial](#writing-good-how-to-or-tutorial)
-  * [Description](#description)
-    * [Overview](#overview)
+  * [Description](#Description)
+    * [Overview](Overview)
     * [General Task](#general-task)
   * [Requirements](#requirements)
     * [Prerequisites](#prerequisites)
@@ -34,7 +34,9 @@ The purpose is to guide PLC users into the steps to connect their signals into t
 
 ### General Task
 
-What is the general goal/task of this how-to/tutorial?
+The general task of this how to, it is to trace signals from a machine or user program, and transfer the trace data (timestamps and values) to a higher level application for further processing or long-term storage in a database.
+
+
 
 ![task](docs/graphics/example_graphic.png)
 
@@ -50,14 +52,14 @@ User should be familiar with:
 
 ### Used components
 
-*Industrial Edge Management (IEM) V1.2.14
- *S7 Connector V1.2.26
- *S7 Connector Configurator V1.2.37
- *IE Databus V1.2.16
- *IE Databus Configurator V1.2.29
-*Industrial Edge Device (IED) V1.2.0-56
-*TIA Portal V16
-*PLC: CPU 1511 FW 2.8.3
+* Industrial Edge App Publisher V1.0.8
+* Docker Engine 18.09.6
+* Docker Compose V2.4
+* S7 Connector V 1.0.22
+* S7 Connector Configurator V 1.0.9
+* Industrial Edge Device V 1.0.0-34
+* TIA Portal V16
+* PLC: CPU 1516 FW 2.8.3
 
 if the user cannot get a SIEMENS industrial edge system, this example can also be done, using Node-RED
 
@@ -66,9 +68,8 @@ For installing node-red check the next link:
 
 ## Installation
 
-1. First step the user must import the PLC library into his/her PLC application. see this link 
-* Library [SIMATIC: S7-1500 – LEdgeBuffer](https://support.industry.siemens.com/cs/document/109783979)
-2. A fork of this github entry must be created 
+1. First step the user must import the PLC library into his/her PLC application. see this link: Library [SIMATIC: S7-1500 – LEdgeBuffer](https://support.industry.siemens.com/cs/document/109783979)
+2. A fork of this github repository must be created 
 3. A new project has to be created based on the fork of this library in Node-RED/SIEMENS Industry
 
 
@@ -78,16 +79,7 @@ When the app is installed, how can I use it? Usually some basic UI description t
 
 ## Documentation
 
-Add links to documentation. Either on external URL or in the doc folder. Please use always link to a file not to a directory (it doesn't work with static site generator engines).
-
-Add these links:
-
-You can find further documentation and help in the following links
-
-* [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
-* [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
-* [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
-* [Industrial Edge GitHub page](https://github.com/industrial-edge)
+Documentation of the library can be found in the SIEMENS SIOS entry [SIMATIC: S7-1500 – LEdgeBuffer](https://support.industry.siemens.com/cs/document/109783979)
 
 ## Contribution
 
