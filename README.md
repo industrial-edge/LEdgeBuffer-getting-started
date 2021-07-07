@@ -1,31 +1,12 @@
-# Writing good how-to or tutorial
+# How to sample high frequency signals from PLC to Edge Computing applications via MQTT (Using Node-RED, SIMATIC PLC and OPC-UA)
 
-Before you start writing, read the following materials how to write good documentation (including how-tos).
+This document will take you through the basic steps and configuration of components required to set up a PLC program with the SIEMENS library "LEdgeBuffer" to  recording and send high frequency signals' data to an edge computing application using OPC-UA and Node-RED or SIEMENS Industrial flow creator.
 
-* [Google Developer style guide](https://developers.google.com/style)
-* [Technical writing Courses](https://developers.google.com/tech-writing)
-* [Microsoft Writing Style Guide](https://docs.microsoft.com/cs-cz/style-guide/welcome/)
-
-Then decide: Are you writing a tutorial or a how-to guide?
-
-[Divio](https://documentation.divio.com/) explains the difference  (Note that this applies for software documentation for application developers)
-
-* Tutorials are lessons that take the reader by the hand through a series of steps to complete a project of some kind. They are what your project needs in order to show a beginner that they can achieve something with it. https://documentation.divio.com/tutorials/
-* How-to guides take the reader through the steps required to solve a real-world problem
-
-Each have a different writing style. Tutorials must be bullet proof (no unexpected behavior) https://documentation.divio.com/how-to-guides/
-
-Note: Try to write the tutorials and how-tos as a standalone html page, ready to be generated using Static site generator [MkDocs](https://www.mkdocs.org/). When referencing code examples or files, use the full URL of the git repository. We want to reuse these how-tos and tutorials in Documentation website.
-
-Don't explain concepts. [It gets in a way of action](https://documentation.divio.com/how-to-guides/#don-t-explain-concepts).  
-
-Don't use HTML tags unless working with videos. And try to avoid using videos unless absolutely necessary. Don't upload videos to Git repository.
-
-Bellow you can find the structure of IE tow-to/tutorial
+The document intends to provide a quick start guide for testing the library locally with any SIMATIC PLC S7-1500 and Node-RED/SIEMENS Industrial Flow Creator.
 
 * [Writing good how-to or tutorial](#writing-good-how-to-or-tutorial)
-  * [Description](#description)
-    * [Overview](#overview)
+  * [Description](#Description)
+    * [Overview](Overview)
     * [General Task](#general-task)
   * [Requirements](#requirements)
     * [Prerequisites](#prerequisites)
@@ -38,13 +19,24 @@ Bellow you can find the structure of IE tow-to/tutorial
 
 ## Description
 
+The SIMATIC library "LEdgeBuffer" allows creating a local buffer in the PLC to sample high speed signals (i.e. sampling period = 1ms). This buffer and the recording job can be accessed and controled via OPC-UA.
+
+The PLC library functions (FCs) work together with a Node-RED flow. This flow interacts with the PLC "buffer" to start the recording process and later collect the recorded data. The interaction is done reading/writing a datablock via OPC-UA that works as an interface for the PLC application and user consuming the data from the buffer.
+
+The Node-RED flow works as a gateway to publish the data from the PLC as a JSON file that can be send to another devices via i.e. MQTT.
+
+
 ### Overview
 
-Why has been this how-to/tutorial created? What is the purpose?
+This how-to has been created as a straight forward example to sample PLC signals to the edge in asynchronic way, but keeping timestamps. 
+
+The purpose is to guide PLC users into the steps to connect their signals into the application "LEdgeBuffer" for the use case of reading the signals remotely and processing into the edge.
 
 ### General Task
 
-What is the general goal/task of this how-to/tutorial?
+The general task of this how to, it is to trace signals from a machine or user program, and transfer the trace data (timestamps and values) to a higher level application for further processing or long-term storage in a database.
+
+
 
 ![task](docs/graphics/example_graphic.png)
 
@@ -52,12 +44,13 @@ What is the general goal/task of this how-to/tutorial?
 
 ### Prerequisites
 
-What are the requirements on the user knowledge, HW components before starting the how-to?
+User should be familiar with:
+* Node-red
+* PLC programming
+* TIA Portal V16
+* MQTT
 
 ### Used components
-
-List the used software and hardware components that were tested with this how-to.
-Add the used components here (e.g.)
 
 * Industrial Edge App Publisher V1.0.8
 * Docker Engine 18.09.6
@@ -66,15 +59,19 @@ Add the used components here (e.g.)
 * S7 Connector Configurator V 1.0.9
 * Industrial Edge Device V 1.0.0-34
 * TIA Portal V16
-* PLC: CPU 1511 FW 2.8.3
+* PLC: CPU 1516 FW 2.8.3
+
+if the user cannot get a SIEMENS industrial edge system, this example can also be done, using Node-RED
+
+For installing node-red check the next link:
+* [Node-RED installation](https://nodered.org/docs/getting-started/local)
 
 ## Installation
 
-How to install/run this application example? (i.e. how to deploy it to Industrial Edge device?) How to build this application? How to set up configurations in IE?
+1. First step the user must import the PLC library into his/her PLC application. see this link: Library [SIMATIC: S7-1500 – LEdgeBuffer](https://support.industry.siemens.com/cs/document/109783979)
+2. A fork of this github repository must be created 
+3. A new project has to be created based on the fork of this library in Node-RED/SIEMENS Industry
 
-To keep the readme.md file as short as possible please add more detailed information in the docs folder.
-
-* [Build application](docs/Installation.md#build-application)
 
 ## Usage
 
@@ -82,16 +79,7 @@ When the app is installed, how can I use it? Usually some basic UI description t
 
 ## Documentation
 
-Add links to documentation. Either on external URL or in the doc folder. Please use always link to a file not to a directory (it doesn't work with static site generator engines).
-
-Add these links:
-
-You can find further documentation and help in the following links
-
-* [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
-* [Industrial Edge Forum](https://www.siemens.com/industrial-edge-forum)
-* [Industrial Edge landing page](https://new.siemens.com/global/en/products/automation/topic-areas/industrial-edge/simatic-edge.html)
-* [Industrial Edge GitHub page](https://github.com/industrial-edge)
+Documentation of the library can be found in the SIEMENS SIOS entry [SIMATIC: S7-1500 – LEdgeBuffer](https://support.industry.siemens.com/cs/document/109783979)
 
 ## Contribution
 
