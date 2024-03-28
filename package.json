@@ -1,8 +1,12 @@
 {
-    "name": "LEdgeBuffer-data-buffer-connector",
-    "description": "A Node-RED Project",
-    "version": "0.0.1",
-    "dependencies": {},
+    "name": "ledgebuffer-data-buffer-connector",
+    "description": "Node-Red Project for interface with LEdgeBuffer app",
+    "version": "3.0.17",
+    "dependencies": {
+        "node-red-contrib-opcua": "0.2.302",
+        "node-red-contrib-ui-led": "0.4.11",
+        "node-red-dashboard": "3.1.5"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
