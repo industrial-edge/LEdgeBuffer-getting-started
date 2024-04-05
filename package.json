@@ -1,0 +1,16 @@
+{
+    "name": "LEdgeBuffer-getting-started",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "dependencies": {
+        "node-red-contrib-opcua": "0.2.314",
+        "node-red-contrib-ui-led": "0.4.11",
+        "node-red-dashboard": "3.6.5"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}

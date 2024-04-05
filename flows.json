@@ -1,0 +1,4669 @@
+[
+    {
+        "id": "3cfe1d3910bcf87f",
+        "type": "tab",
+        "label": "LEdgeBuffer",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "90d3c301.4fc55",
+        "type": "ui_group",
+        "name": "REAL",
+        "tab": "68c4c8e7.fbab58",
+        "order": 3,
+        "disp": true,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2f848b19.d8b6d4",
+        "type": "ui_group",
+        "name": "INT",
+        "tab": "68c4c8e7.fbab58",
+        "order": 5,
+        "disp": true,
+        "width": "15",
+        "collapse": false
+    },
+    {
+        "id": "db217e38.d94ea",
+        "type": "ui_group",
+        "name": "WORD",
+        "tab": "68c4c8e7.fbab58",
+        "order": 4,
+        "disp": true,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a9b840b7.977e5",
+        "type": "ui_group",
+        "name": "Setting",
+        "tab": "68c4c8e7.fbab58",
+        "order": 2,
+        "disp": true,
+        "width": 24,
+        "collapse": false
+    },
+    {
+        "id": "5f55aea022caf8b1",
+        "type": "ui_group",
+        "name": "Application status",
+        "tab": "c81bb6b1aba63194",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "8d2bf60f22e4f73d",
+        "type": "tls-config",
+        "name": "my new config",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": false,
+        "alpnprotocol": ""
+    },
+    {
+        "id": "e75ab9ccb7e774a4",
+        "type": "ui_group",
+        "name": "Login for WebAPI of PLC",
+        "tab": "68c4c8e7.fbab58",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "68c4c8e7.fbab58",
+        "type": "ui_tab",
+        "name": "Signal selector",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c81bb6b1aba63194",
+        "type": "ui_tab",
+        "name": "Application control and dashboards",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "03c9a89d0c08cc8c",
+        "type": "ui_tab",
+        "name": "Authentication",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "080f87cf25c4d49d",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "e054718e1c31d181",
+        "type": "ui_spacer",
+        "z": "3cfe1d3910bcf87f",
+        "name": "spacer",
+        "group": "e75ab9ccb7e774a4",
+        "order": 6,
+        "width": "6",
+        "height": "1"
+    },
+    {
+        "id": "e801ec5cc61aeb8d",
+        "type": "ui_spacer",
+        "z": "3cfe1d3910bcf87f",
+        "name": "spacer",
+        "group": "a9b840b7.977e5",
+        "order": 12,
+        "width": "24",
+        "height": "1"
+    },
+    {
+        "id": "8d245ab6c5463639",
+        "type": "ui_spacer",
+        "z": "3cfe1d3910bcf87f",
+        "name": "spacer",
+        "group": "a9b840b7.977e5",
+        "order": 6,
+        "width": "4",
+        "height": "2"
+    },
+    {
+        "id": "adf168f9ae65561a",
+        "type": "ui_spacer",
+        "z": "3cfe1d3910bcf87f",
+        "name": "spacer",
+        "group": "a9b840b7.977e5",
+        "order": 1,
+        "width": "1",
+        "height": "2"
+    },
+    {
+        "id": "f219d6191ed807e5",
+        "type": "ui_spacer",
+        "z": "3cfe1d3910bcf87f",
+        "name": "spacer",
+        "group": "a9b840b7.977e5",
+        "order": 8,
+        "width": "1",
+        "height": "2"
+    },
+    {
+        "id": "c8ea2986e6b50b59",
+        "type": "ui_spacer",
+        "z": "3cfe1d3910bcf87f",
+        "name": "spacer",
+        "group": "a9b840b7.977e5",
+        "order": 7,
+        "width": "24",
+        "height": "1"
+    },
+    {
+        "id": "37e0a5c26c8cc258",
+        "type": "mqtt-broker",
+        "name": "mqtt Bnet",
+        "broker": "192.168.200.13",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ecaa4f29ebbada9d",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://192.168.10.100:4840",
+        "secpol": "None",
+        "secmode": "None",
+        "none": false,
+        "login": true,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "5a60c81441ab6523",
+        "type": "mqtt-broker",
+        "name": "mqtt A-net",
+        "broker": "158.92.119.135",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "4628b76924451903",
+        "type": "ui_group",
+        "name": "Charts",
+        "tab": "c81bb6b1aba63194",
+        "order": 2,
+        "disp": true,
+        "width": "14",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f0955a8426e102fc",
+        "type": "mqtt-broker",
+        "name": "ie-databus",
+        "broker": "ie-databus",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5042cb42624d31dd",
+        "type": "ui_group",
+        "name": "Data diagnostics",
+        "tab": "c81bb6b1aba63194",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "490171b753d64470",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Real # 1 - selection",
+        "label": "Real #1",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "90d3c301.4fc55",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "1",
+        "topicType": "str",
+        "className": "",
+        "x": 890,
+        "y": 1220,
+        "wires": [
+            [
+                "3567397f0f512a76"
+            ]
+        ]
+    },
+    {
+        "id": "20503fa709ff7836",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "get symbol name REAL signals",
+        "func": "\n\nmsg.payload = 0\nmsg.options = flow.get(\"realNames\") || []; // variable pool called options\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 1500,
+        "wires": [
+            [
+                "490171b753d64470",
+                "85e2e8d3fa5c07df",
+                "55fc9aeabde01e7d",
+                "aa240e2b4474a154",
+                "b1de7b9720230210"
+            ]
+        ]
+    },
+    {
+        "id": "55fc9aeabde01e7d",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Real # 2 - selection",
+        "label": "Real #2",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "90d3c301.4fc55",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "2",
+        "topicType": "str",
+        "className": "",
+        "x": 890,
+        "y": 1280,
+        "wires": [
+            [
+                "3567397f0f512a76"
+            ]
+        ]
+    },
+    {
+        "id": "aa240e2b4474a154",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Real # 3 - selection",
+        "label": "Real #3",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "90d3c301.4fc55",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "3",
+        "topicType": "str",
+        "className": "",
+        "x": 890,
+        "y": 1340,
+        "wires": [
+            [
+                "3567397f0f512a76"
+            ]
+        ]
+    },
+    {
+        "id": "b1de7b9720230210",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Real # 4 - selection",
+        "label": "Real #4",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "90d3c301.4fc55",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "4",
+        "topicType": "str",
+        "className": "",
+        "x": 890,
+        "y": 1400,
+        "wires": [
+            [
+                "3567397f0f512a76"
+            ]
+        ]
+    },
+    {
+        "id": "85e2e8d3fa5c07df",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Real # 0 - selection",
+        "label": "Real #0",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "90d3c301.4fc55",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "0",
+        "topicType": "str",
+        "className": "",
+        "x": 890,
+        "y": 1160,
+        "wires": [
+            [
+                "3567397f0f512a76"
+            ]
+        ]
+    },
+    {
+        "id": "2cb7efa2ac5bf296",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "get symbol name INT signals",
+        "func": "\nmsg.payload = 0\nmsg.options = flow.get(\"intNames\") || []; // variable pool called options\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 1580,
+        "wires": [
+            [
+                "e1a2e6aca311b7d8",
+                "2f88f19dfc3af8e6",
+                "2a0ec8cb7d9bf717",
+                "14031a9309cabd5a",
+                "8fe8a09df5944d3d"
+            ]
+        ]
+    },
+    {
+        "id": "2f88f19dfc3af8e6",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Int # 1 - selection",
+        "label": "Int #1",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "2f848b19.d8b6d4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "1",
+        "topicType": "str",
+        "className": "",
+        "x": 890,
+        "y": 1560,
+        "wires": [
+            [
+                "1f7a1eb58b09eefe"
+            ]
+        ]
+    },
+    {
+        "id": "2a0ec8cb7d9bf717",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Int # 2 - selection",
+        "label": "Int #2",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "2f848b19.d8b6d4",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "2",
+        "topicType": "str",
+        "className": "",
+        "x": 890,
+        "y": 1620,
+        "wires": [
+            [
+                "1f7a1eb58b09eefe"
+            ]
+        ]
+    },
+    {
+        "id": "14031a9309cabd5a",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Int # 3 - selection",
+        "label": "Int #3",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "2f848b19.d8b6d4",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "3",
+        "topicType": "str",
+        "className": "",
+        "x": 890,
+        "y": 1680,
+        "wires": [
+            [
+                "1f7a1eb58b09eefe"
+            ]
+        ]
+    },
+    {
+        "id": "8fe8a09df5944d3d",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Int # 4 - selection",
+        "label": "Int #4",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "2f848b19.d8b6d4",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "4",
+        "topicType": "str",
+        "className": "",
+        "x": 890,
+        "y": 1740,
+        "wires": [
+            [
+                "1f7a1eb58b09eefe"
+            ]
+        ]
+    },
+    {
+        "id": "e1a2e6aca311b7d8",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Int # 0 - selection",
+        "label": "Int #0",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "2f848b19.d8b6d4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "0",
+        "topicType": "str",
+        "className": "",
+        "x": 890,
+        "y": 1500,
+        "wires": [
+            [
+                "1f7a1eb58b09eefe"
+            ]
+        ]
+    },
+    {
+        "id": "9d5eb383cc896999",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "get symbol name WORD signals",
+        "func": "msg.payload = 0\nmsg.options = flow.get(\"wordNames\") || []; // variable pool called options\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 1680,
+        "wires": [
+            [
+                "18ec30ef93278eeb",
+                "088b1e4db6e8a115",
+                "ce4a39aa1c0bd407",
+                "1489c3dc19865cff",
+                "9a0134cd705d8bae"
+            ]
+        ]
+    },
+    {
+        "id": "088b1e4db6e8a115",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Word # 1 - selection",
+        "label": "Word #1",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "db217e38.d94ea",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "1",
+        "topicType": "str",
+        "className": "",
+        "x": 900,
+        "y": 1900,
+        "wires": [
+            [
+                "87be493f8b0fa5d5"
+            ]
+        ]
+    },
+    {
+        "id": "ce4a39aa1c0bd407",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Word # 2 - selection",
+        "label": "Word #2",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "db217e38.d94ea",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "2",
+        "topicType": "str",
+        "className": "",
+        "x": 900,
+        "y": 1960,
+        "wires": [
+            [
+                "87be493f8b0fa5d5"
+            ]
+        ]
+    },
+    {
+        "id": "1489c3dc19865cff",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Word # 3 - selection",
+        "label": "Word #3",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "db217e38.d94ea",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "3",
+        "topicType": "str",
+        "className": "",
+        "x": 900,
+        "y": 2020,
+        "wires": [
+            [
+                "87be493f8b0fa5d5"
+            ]
+        ]
+    },
+    {
+        "id": "9a0134cd705d8bae",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Word # 4 - selection",
+        "label": "Word #4",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "db217e38.d94ea",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "4",
+        "topicType": "str",
+        "className": "",
+        "x": 900,
+        "y": 2080,
+        "wires": [
+            [
+                "87be493f8b0fa5d5"
+            ]
+        ]
+    },
+    {
+        "id": "18ec30ef93278eeb",
+        "type": "ui_dropdown",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Word # 0 - selection",
+        "label": "Word #0",
+        "tooltip": "",
+        "place": "Select signal to be traced",
+        "group": "db217e38.d94ea",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "0",
+        "topicType": "str",
+        "className": "",
+        "x": 900,
+        "y": 1840,
+        "wires": [
+            [
+                "87be493f8b0fa5d5"
+            ]
+        ]
+    },
+    {
+        "id": "3567397f0f512a76",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "function write selector - REAL",
+        "func": "//var jsonRpc = [];\n\nvar index = msg.topic;\n\nvar select = msg.payload;\nvar vartxt = \"\\\"LEdgeBuffer_DataExchange\\\".realTraceSelector[\" + index + ']';\nvar jsonObj = {\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"PlcProgram.Write\",\n    \"id\": index,\n    \"params\": {\n        \"var\": vartxt,\n        \"value\": select\n    }\n}\n//jsonRpc.push(jsonObj);\n\n\nmsg.payload = jsonObj;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 1260,
+        "wires": [
+            [
+                "af3aadc92c0f8936"
+            ]
+        ]
+    },
+    {
+        "id": "f01907d8cd154197",
+        "type": "ui_button",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "group": "a9b840b7.977e5",
+        "order": 3,
+        "width": 6,
+        "height": 2,
+        "passthru": false,
+        "label": "Set default values",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "",
+        "topicType": "str",
+        "x": 210,
+        "y": 1160,
+        "wires": [
+            [
+                "f4d35d038ef59937",
+                "0aa36713e45269aa"
+            ]
+        ]
+    },
+    {
+        "id": "29b15fb4f5f30a97",
+        "type": "comment",
+        "z": "3cfe1d3910bcf87f",
+        "name": "3. Selector section ---------------------------------------------------------------------------------------------------------------------------------------",
+        "info": "3. Selector section",
+        "x": 500,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "f4d35d038ef59937",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "set default selector number",
+        "func": "\nconst init = \"init\";\n\nvar msg0 = { payload: 1, request: init };\nvar msg1 = { payload: 2, request: init };\nvar msg2 = { payload: 3, request: init };\nvar msg3 = { payload: 4, request: init };\nvar msg4 = { payload: 5, request: init };\n\n\n\nreturn [msg0, msg1, msg2, msg3, msg4 ];",
+        "outputs": 5,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 1300,
+        "wires": [
+            [
+                "9d41d86b9212b51b"
+            ],
+            [
+                "fed471f05c67d269"
+            ],
+            [
+                "5d978d734cd6204b"
+            ],
+            [
+                "c91431bbf3d94843"
+            ],
+            [
+                "ce4a783fbca468a1"
+            ]
+        ]
+    },
+    {
+        "id": "9d41d86b9212b51b",
+        "type": "link out",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Sel. Default #0",
+        "links": [
+            "5e26a9177d03f7f3",
+            "8e1baefbe5a710ad",
+            "9dbed387.f978f",
+            "cfba91fe.c2e02",
+            "bd701b4c3e658d9c"
+        ],
+        "x": 515,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "8e1baefbe5a710ad",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "LReal # 0 - selector",
+        "links": [
+            "9d41d86b9212b51b"
+        ],
+        "x": 675,
+        "y": 1120,
+        "wires": [
+            [
+                "85e2e8d3fa5c07df"
+            ]
+        ]
+    },
+    {
+        "id": "5e26a9177d03f7f3",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Int # 0 - selector",
+        "links": [
+            "9d41d86b9212b51b"
+        ],
+        "x": 755,
+        "y": 1460,
+        "wires": [
+            [
+                "e1a2e6aca311b7d8"
+            ]
+        ]
+    },
+    {
+        "id": "0f967d558ddadfb8",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Int # 1 - selector",
+        "links": [
+            "fed471f05c67d269"
+        ],
+        "x": 755,
+        "y": 1520,
+        "wires": [
+            [
+                "2f88f19dfc3af8e6"
+            ]
+        ]
+    },
+    {
+        "id": "b845ec1de630e67c",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Int # 2 - selector",
+        "links": [
+            "5d978d734cd6204b"
+        ],
+        "x": 755,
+        "y": 1580,
+        "wires": [
+            [
+                "2a0ec8cb7d9bf717"
+            ]
+        ]
+    },
+    {
+        "id": "dbef46a2961d0fb4",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Int # 3 - selector",
+        "links": [
+            "c91431bbf3d94843"
+        ],
+        "x": 755,
+        "y": 1640,
+        "wires": [
+            [
+                "14031a9309cabd5a"
+            ]
+        ]
+    },
+    {
+        "id": "ac18b9a452ec3b1d",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Int # 4 - selector",
+        "links": [
+            "ce4a783fbca468a1"
+        ],
+        "x": 755,
+        "y": 1700,
+        "wires": [
+            [
+                "8fe8a09df5944d3d"
+            ]
+        ]
+    },
+    {
+        "id": "ce4a783fbca468a1",
+        "type": "link out",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Sel. Default #4",
+        "links": [
+            "ac18b9a452ec3b1d",
+            "1008b411ebc8205f",
+            "c95bd369b54b32ef"
+        ],
+        "x": 515,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "fed471f05c67d269",
+        "type": "link out",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Sel. Default #1",
+        "links": [
+            "0f967d558ddadfb8",
+            "323df48a2deff5db",
+            "26a0e715313ea9f1"
+        ],
+        "x": 515,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "5d978d734cd6204b",
+        "type": "link out",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Sel. Default #2",
+        "links": [
+            "b845ec1de630e67c",
+            "8c1dd508d3b5bc6d",
+            "f5c545443100826e"
+        ],
+        "x": 515,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "c91431bbf3d94843",
+        "type": "link out",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Sel. Default #3",
+        "links": [
+            "dbef46a2961d0fb4",
+            "560c457da0346009",
+            "ba254e0bb20c1cdb"
+        ],
+        "x": 515,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "323df48a2deff5db",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "LReal # 1 - selector",
+        "links": [
+            "fed471f05c67d269"
+        ],
+        "x": 675,
+        "y": 1160,
+        "wires": [
+            [
+                "490171b753d64470"
+            ]
+        ]
+    },
+    {
+        "id": "8c1dd508d3b5bc6d",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "LReal # 2 - selector",
+        "links": [
+            "5d978d734cd6204b"
+        ],
+        "x": 675,
+        "y": 1220,
+        "wires": [
+            [
+                "55fc9aeabde01e7d"
+            ]
+        ]
+    },
+    {
+        "id": "560c457da0346009",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Int # 3 - selector",
+        "links": [
+            "c91431bbf3d94843"
+        ],
+        "x": 675,
+        "y": 1280,
+        "wires": [
+            [
+                "aa240e2b4474a154"
+            ]
+        ]
+    },
+    {
+        "id": "1008b411ebc8205f",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Int # 4 - selector",
+        "links": [
+            "ce4a783fbca468a1"
+        ],
+        "x": 675,
+        "y": 1340,
+        "wires": [
+            [
+                "b1de7b9720230210"
+            ]
+        ]
+    },
+    {
+        "id": "bd701b4c3e658d9c",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Dword # 0 - selector",
+        "links": [
+            "9d41d86b9212b51b"
+        ],
+        "x": 635,
+        "y": 1820,
+        "wires": [
+            [
+                "18ec30ef93278eeb"
+            ]
+        ]
+    },
+    {
+        "id": "26a0e715313ea9f1",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Dword # 1 - selector",
+        "links": [
+            "fed471f05c67d269"
+        ],
+        "x": 635,
+        "y": 1880,
+        "wires": [
+            [
+                "088b1e4db6e8a115"
+            ]
+        ]
+    },
+    {
+        "id": "f5c545443100826e",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Dword # 2 - selector",
+        "links": [
+            "5d978d734cd6204b"
+        ],
+        "x": 635,
+        "y": 1940,
+        "wires": [
+            [
+                "ce4a39aa1c0bd407"
+            ]
+        ]
+    },
+    {
+        "id": "ba254e0bb20c1cdb",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Dword # 3 - selector",
+        "links": [
+            "c91431bbf3d94843"
+        ],
+        "x": 635,
+        "y": 2000,
+        "wires": [
+            [
+                "1489c3dc19865cff"
+            ]
+        ]
+    },
+    {
+        "id": "c95bd369b54b32ef",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Dword # 4 - selector",
+        "links": [
+            "ce4a783fbca468a1"
+        ],
+        "x": 635,
+        "y": 2060,
+        "wires": [
+            [
+                "9a0134cd705d8bae"
+            ]
+        ]
+    },
+    {
+        "id": "563d3fc88afd3c02",
+        "type": "OpcUa-Client",
+        "z": "3cfe1d3910bcf87f",
+        "endpoint": "ecaa4f29ebbada9d",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "500",
+        "timeUnit": "ms",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "useTransport": false,
+        "maxChunkCount": "",
+        "maxMessageSize": "",
+        "receiveBufferSize": "",
+        "sendBufferSize": "",
+        "name": "EdgeBuffer_status2",
+        "x": 840,
+        "y": 740,
+        "wires": [
+            [
+                "82d1329bbcd1661c"
+            ]
+        ]
+    },
+    {
+        "id": "293207234b52ccc4",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "name": "default_ready_id",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ns=3;s=\"LEdgeBuffer_DataExchange\".\"readyForTrigger\"",
+        "payloadType": "str",
+        "x": 190,
+        "y": 920,
+        "wires": [
+            [
+                "9d1973dfbfbc9886"
+            ]
+        ]
+    },
+    {
+        "id": "82d1329bbcd1661c",
+        "type": "switch",
+        "z": "3cfe1d3910bcf87f",
+        "name": "selector names",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ns=3;s=\"LEdgeBuffer_DataExchange\".\"readyForTrigger\"",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "ns=3;s=\"LEdgeBuffer_DataExchange\".\"currentBufferStateMachine\"",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "ns=3;s=\"LEdgeBuffer_DataExchange\".\"maximumCycles\"",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1060,
+        "y": 740,
+        "wires": [
+            [
+                "38d3288d06306ea3"
+            ],
+            [
+                "a4e1547f166e41c5"
+            ],
+            [
+                "5668e8e879ba7900",
+                "8eebd7db70f3b8c1"
+            ]
+        ]
+    },
+    {
+        "id": "4c8f702374705f85",
+        "type": "ui_button",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "group": "a9b840b7.977e5",
+        "order": 2,
+        "width": 6,
+        "height": 2,
+        "passthru": false,
+        "label": "Get PLC tags",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "",
+        "topicType": "str",
+        "x": 500,
+        "y": 2760,
+        "wires": [
+            [
+                "b0166aa4014151d2",
+                "18ade0c2e19c5273",
+                "ec6c6e05538a3da3",
+                "6ddd397faa2d8609"
+            ]
+        ]
+    },
+    {
+        "id": "1c9160e059ddb7e7",
+        "type": "comment",
+        "z": "3cfe1d3910bcf87f",
+        "name": "2. Get PLC TAGs ---------------------------------------------------------------------------------------------------------------------------------------",
+        "info": "",
+        "x": 560,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "a4e1547f166e41c5",
+        "type": "ui_text",
+        "z": "3cfe1d3910bcf87f",
+        "group": "5f55aea022caf8b1",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "Switch buffer state machine",
+        "label": "Switch buffer state machine",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1440,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "38d3288d06306ea3",
+        "type": "ui_led",
+        "z": "3cfe1d3910bcf87f",
+        "order": 2,
+        "group": "5f55aea022caf8b1",
+        "width": 0,
+        "height": 0,
+        "label": "Edge Buffer in PLC ready",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showGlow": false,
+        "name": "Egde Buffer in PLC ready",
+        "x": 1450,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "75ea382a6d09151b",
+        "type": "mqtt in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "topic": "ie/LEdgeBuffer/APC0012DEV",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "f0955a8426e102fc",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 460,
+        "y": 120,
+        "wires": [
+            [
+                "7ae3de0e49c48c08",
+                "26f8106c2eb09608"
+            ]
+        ]
+    },
+    {
+        "id": "24d69152691a4b44",
+        "type": "mqtt out",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "",
+        "topic": "ie/LEdgeBuffer/APC0012",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f0955a8426e102fc",
+        "x": 290,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "2071686135fa48a7",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 140,
+        "wires": [
+            [
+                "24d69152691a4b44"
+            ]
+        ]
+    },
+    {
+        "id": "223f5aa7dfb64d3e",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Save edgebuffer raw to context data",
+        "func": "const x = msg.payload;\nflow.set(\"myBufferRaw\", x);\n//context.set(\"myBufferRaw\", x);\n//node.warn(flow.get(\"mega\"));\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 360,
+        "wires": [
+            [
+                "ab7298a30d1fcb5b"
+            ]
+        ]
+    },
+    {
+        "id": "1bbd0479d3a9c04e",
+        "type": "json",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "property": "json_edge_buffer_file",
+        "action": "",
+        "pretty": false,
+        "x": 950,
+        "y": 360,
+        "wires": [
+            [
+                "4734fbb2a402a6d7",
+                "df552368f6ba60b5"
+            ]
+        ]
+    },
+    {
+        "id": "7e5c74ce8ba8db36",
+        "type": "comment",
+        "z": "3cfe1d3910bcf87f",
+        "name": "1. Parse raw MQTT data from PLC",
+        "info": "",
+        "x": 280,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "ab7298a30d1fcb5b",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "LEdgeBuffer_rawParse_mega",
+        "func": "\n\nconst parserClass = flow.get(\"parserClass\");\nconst parserRef = parserClass.signalParserRef;\n\n\nconst parser = new parserRef(\n    flow.get(\"myBufferRaw\")\n);\n\nmsg.json_edge_buffer_file = parser.parse().asJson();\n//flow.set(\"mega\", parser.buildMega());\n\n//context.set(\"mega\", mega);\n//node.warn(msg.json_edge_buffer_file);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 360,
+        "wires": [
+            [
+                "1bbd0479d3a9c04e",
+                "1a4b829aa527d92c"
+            ]
+        ]
+    },
+    {
+        "id": "4b26767948f1fdcf",
+        "type": "ui_button",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Start Recording",
+        "group": "5f55aea022caf8b1",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start trace",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fiber_manual_record",
+        "payload": "start recording",
+        "payloadType": "str",
+        "topic": "recordingButton",
+        "topicType": "str",
+        "x": 320,
+        "y": 540,
+        "wires": [
+            [
+                "4bc5803adebb8183"
+            ]
+        ]
+    },
+    {
+        "id": "92bb747560b5cbde",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 130,
+        "y": 480,
+        "wires": [
+            [
+                "5163793d848f4ce9"
+            ]
+        ]
+    },
+    {
+        "id": "5163793d848f4ce9",
+        "type": "ui_switch",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Enable Edge Buffers in PLC",
+        "label": "Enable Edge Buffers in PLC",
+        "tooltip": "",
+        "group": "5f55aea022caf8b1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 360,
+        "y": 480,
+        "wires": [
+            [
+                "50a9416777730802"
+            ]
+        ]
+    },
+    {
+        "id": "a90983acd8701c22",
+        "type": "debug",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Write opcUA",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1490,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "50a9416777730802",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "ToDo on Enable",
+        "func": "// Set internal buffer collector \"mega object\" to empty object\nif(msg.payload == true) {\n    flow.set(\"mega\", []);\n}\nif (msg.payload == false) {\n    flow.set(\"endTrace\", Date.now());\n    flow.get(\"trace_array\").fill(0);\n    flow.set(\"cntr_readfb\", 0); \n    flow.set(\"crnt_cycles\", 0);\n    flow.set(\"trace_obj\", {});\n}\n\n\n// Send JSON for HTTP\nvar val = msg.payload;\nvar index = 0;\n\nvar vartxt = \"\\\"LEdgeBuffer_DataExchange\\\".enableSwitchBuffer\";\nvar jsonObj = {\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"PlcProgram.Write\",\n    \"id\": index,\n    \"params\": {\n        \"var\": vartxt,\n        \"value\": val\n    }\n}\n\n\nmsg.payload = jsonObj;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 480,
+        "wires": [
+            [
+                "4d3107391558eb8d"
+            ]
+        ]
+    },
+    {
+        "id": "7afefbd9d68a8d88",
+        "type": "http request",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d2bf60f22e4f73d",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 910,
+        "y": 2480,
+        "wires": [
+            [
+                "62fced4366bac077"
+            ]
+        ]
+    },
+    {
+        "id": "906387cf108a47db",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Login",
+        "func": "var jsonRpc = \n\n{ \"id\" : 0,\n\"jsonrpc\" : \"2.0\",\n\"method\" : \"Api.Login\",\n\"params\" : {\n    \"user\" : \"Admin\",\n    \"password\": \"password\"\n}\n}\n\n\nmsg.payload = jsonRpc\n\nvar ip = flow.get(\"ip_address\")\n\nmsg.url = \"https://\"+ip+\"/api/jsonrpc\"\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 2440,
+        "wires": [
+            [
+                "7afefbd9d68a8d88"
+            ]
+        ]
+    },
+    {
+        "id": "712a29072b6144d7",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 570,
+        "y": 2380,
+        "wires": [
+            [
+                "906387cf108a47db"
+            ]
+        ]
+    },
+    {
+        "id": "62fced4366bac077",
+        "type": "json",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1110,
+        "y": 2540,
+        "wires": [
+            [
+                "8d2195625c905279",
+                "abe7e6bc4e85a5ab"
+            ]
+        ]
+    },
+    {
+        "id": "8d2195625c905279",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Save Token",
+        "func": "// This function saves the token to access Web API\nif (typeof msg.error == 'object'){\n    msg.payload = \"Something went wrong! Error: \" + msg.error.message;\n    return msg;\n}\n\nif(typeof msg.payload.error == 'undefined') {\n    flow.set(\"x-Auth-Token\", msg.payload.result.token);\n    msg.payload = \"You are authenticated!\";\n}\nelse msg.payload = \"Something went wrong! Error: \" + msg.payload.error.message;\n\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1350,
+        "y": 2540,
+        "wires": [
+            [
+                "abe7e6bc4e85a5ab",
+                "6a02539eb6fe892a"
+            ]
+        ]
+    },
+    {
+        "id": "99cab8dbd0c24ef6",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 500,
+        "y": 2820,
+        "wires": [
+            [
+                "b0166aa4014151d2",
+                "18ade0c2e19c5273",
+                "ec6c6e05538a3da3"
+            ]
+        ]
+    },
+    {
+        "id": "b0166aa4014151d2",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "read Real names",
+        "func": "var jsonRpc = [];\n\n\nfor(var i = 0; i<16; i++){\n    var vartxt = \"\\\"LEdgeBuffer_DataExchange\\\".nameRealSignal[\" + i + ']';\n    var jsonObj = {\n        \"jsonrpc\": \"2.0\",\n        \"method\": \"PlcProgram.Read\",\n        \"id\": i,\n        \"params\": {\n            \"var\": vartxt\n        }\n    }\n    jsonRpc.push(jsonObj);\n}\n\n\nmsg.payload = jsonRpc;\n\nmsg.dtype = \"real\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 2740,
+        "wires": [
+            [
+                "725721d8e6ce5755"
+            ]
+        ]
+    },
+    {
+        "id": "725721d8e6ce5755",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Add token to message",
+        "func": "var xAuthToken = flow.get(\"x-Auth-Token\")\nmsg.xAuthToken = xAuthToken\n\nmsg.headers = {};\n\nvar ip = flow.get(\"ip_address\")\n\nmsg.url = \"https://\" + ip + \"/api/jsonrpc\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 2820,
+        "wires": [
+            [
+                "a63a35ff71c75e8e"
+            ]
+        ]
+    },
+    {
+        "id": "a63a35ff71c75e8e",
+        "type": "http request",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d2bf60f22e4f73d",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "x-Auth-Token",
+                "valueType": "msg",
+                "valueValue": "xAuthToken"
+            }
+        ],
+        "x": 1190,
+        "y": 2820,
+        "wires": [
+            [
+                "4abbdb3be4e597d8"
+            ]
+        ]
+    },
+    {
+        "id": "4abbdb3be4e597d8",
+        "type": "json",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1350,
+        "y": 2820,
+        "wires": [
+            [
+                "e4c4130db744824e"
+            ]
+        ]
+    },
+    {
+        "id": "171da127c529f7e2",
+        "type": "debug",
+        "z": "3cfe1d3910bcf87f",
+        "name": "debug 10",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1580,
+        "y": 2700,
+        "wires": []
+    },
+    {
+        "id": "017a5689896c08c9",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "filtering / save var names",
+        "func": "var payl = msg.payload;\n\n\nswitch (msg.dtype) {\n    case \"real\":\n        var realNameArr = [];\n        var crnt_arr = realNameArr;\n        break;\n    case \"int\":\n        var intNameArr = [];\n        var crnt_arr = intNameArr;\n        break;\n    case \"word\":\n        var wordNameArr = [];\n        var crnt_arr = wordNameArr;\n        break; \n}\n\nvar size = payl.length;\n\nfor(var i=0; i<size; i++){\n    var name = payl[i].result;\n    var id = payl[i].id;\n    var arrObj = { [name]: id };\n    crnt_arr.push(arrObj);\n}\n\n\nvar selector = new Array(5);\n\nswitch (msg.dtype) {\n    case \"real\":\n        flow.set(\"realNames\", realNameArr);\n        flow.set(\"realSignalSelector\", selector);\n        break;\n    case \"int\":\n        flow.set(\"intNames\", intNameArr);\n        flow.set(\"intSignalSelector\", selector);\n        break;\n    case \"word\":\n        flow.set(\"wordNames\", wordNameArr);\n        flow.set(\"wordSignalSelector\", selector);\n        break;\n}\n\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1590,
+        "y": 2900,
+        "wires": [
+            [
+                "171da127c529f7e2",
+                "6474cae81611fbf9"
+            ]
+        ]
+    },
+    {
+        "id": "18ade0c2e19c5273",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "read Int names",
+        "func": "var jsonRpc = [];\n\n\nfor(var i = 0; i<8; i++){\n    var vartxt = \"\\\"LEdgeBuffer_DataExchange\\\".nameIntSignal[\" + i + ']';\n    var jsonObj = {\n        \"jsonrpc\": \"2.0\",\n        \"method\": \"PlcProgram.Read\",\n        \"id\": i,\n        \"params\": {\n            \"var\": vartxt\n        }\n    }\n    jsonRpc.push(jsonObj);\n}\n\n\nmsg.payload = jsonRpc;\n\n\nmsg.dtype = \"int\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 2820,
+        "wires": [
+            [
+                "725721d8e6ce5755"
+            ]
+        ]
+    },
+    {
+        "id": "ec6c6e05538a3da3",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "read Word names",
+        "func": "var jsonRpc = [];\n\n\nfor(var i = 0; i<8; i++){\n    var vartxt = \"\\\"LEdgeBuffer_DataExchange\\\".nameWordSignal[\" + i + ']';\n    var jsonObj = {\n        \"jsonrpc\": \"2.0\",\n        \"method\": \"PlcProgram.Read\",\n        \"id\": i,\n        \"params\": {\n            \"var\": vartxt\n        }\n    }\n    jsonRpc.push(jsonObj);\n}\n\n\nmsg.payload = jsonRpc;\n\nmsg.dtype = \"word\";\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 2900,
+        "wires": [
+            [
+                "725721d8e6ce5755"
+            ]
+        ]
+    },
+    {
+        "id": "0d51c8eeae349d96",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "init_dropdown_options",
+        "links": [
+            "e496d2a29ad42276"
+        ],
+        "x": 65,
+        "y": 1580,
+        "wires": [
+            [
+                "20503fa709ff7836",
+                "2cb7efa2ac5bf296",
+                "9d5eb383cc896999"
+            ]
+        ]
+    },
+    {
+        "id": "9c2446fe1445a891",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 1480,
+        "wires": [
+            [
+                "20503fa709ff7836",
+                "2cb7efa2ac5bf296",
+                "9d5eb383cc896999"
+            ]
+        ]
+    },
+    {
+        "id": "1f7a1eb58b09eefe",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "function write selector - INT",
+        "func": "//var jsonRpc = [];\n\nvar index = msg.topic;\n\nvar select = msg.payload;\nvar vartxt = \"\\\"LEdgeBuffer_DataExchange\\\".intTraceSelector[\" + index + ']';\nvar jsonObj = {\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"PlcProgram.Write\",\n    \"id\": index,\n    \"params\": {\n        \"var\": vartxt,\n        \"value\": select\n    }\n}\n//jsonRpc.push(jsonObj);\n\n\nmsg.payload = jsonObj;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1220,
+        "y": 1600,
+        "wires": [
+            [
+                "343aa97bfbb45863"
+            ]
+        ]
+    },
+    {
+        "id": "87be493f8b0fa5d5",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "function write selector - WORD",
+        "func": "//var jsonRpc = [];\n\nvar index = msg.topic;\n\nvar select = msg.payload;\nvar vartxt = \"\\\"LEdgeBuffer_DataExchange\\\".wordTraceSelector[\" + index + ']';\nvar jsonObj = {\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"PlcProgram.Write\",\n    \"id\": index,\n    \"params\": {\n        \"var\": vartxt,\n        \"value\": select\n    }\n}\n//jsonRpc.push(jsonObj);\n\n\nmsg.payload = jsonObj;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 1960,
+        "wires": [
+            [
+                "803c38128e8df37c"
+            ]
+        ]
+    },
+    {
+        "id": "235917211fc57280",
+        "type": "http request",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d2bf60f22e4f73d",
+        "persist": true,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "x-Auth-Token",
+                "valueType": "msg",
+                "valueValue": "xAuthToken"
+            }
+        ],
+        "x": 1910,
+        "y": 1600,
+        "wires": [
+            [
+                "a6a4207836427e70",
+                "b16960ea3fd1d3f2"
+            ]
+        ]
+    },
+    {
+        "id": "19757c7c3adbac10",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Add token to message",
+        "func": "var xAuthToken = flow.get(\"x-Auth-Token\")\nmsg.xAuthToken = xAuthToken\n\nmsg.headers = {};\n\nvar ip = flow.get(\"ip_address\")\n\nmsg.url = \"https://\" + ip + \"/api/jsonrpc\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 1600,
+        "wires": [
+            [
+                "235917211fc57280"
+            ]
+        ]
+    },
+    {
+        "id": "a6a4207836427e70",
+        "type": "json",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 2090,
+        "y": 1600,
+        "wires": [
+            [
+                "3079cdb4e7ca7ecd"
+            ]
+        ]
+    },
+    {
+        "id": "ad50a89f95dd368b",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "api ping",
+        "func": "var jsonRpc = {\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"Api.Ping\",\n    \"id\": 1\n}\n\nmsg.payload = jsonRpc;\nmsg.topic = \"ping\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 3020,
+        "wires": [
+            [
+                "725721d8e6ce5755"
+            ]
+        ]
+    },
+    {
+        "id": "314140dbe8de4a3e",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "30",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 570,
+        "y": 3020,
+        "wires": [
+            [
+                "ad50a89f95dd368b"
+            ]
+        ]
+    },
+    {
+        "id": "af3aadc92c0f8936",
+        "type": "join",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "5",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1450,
+        "y": 1260,
+        "wires": [
+            [
+                "19757c7c3adbac10"
+            ]
+        ]
+    },
+    {
+        "id": "343aa97bfbb45863",
+        "type": "join",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "5",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1470,
+        "y": 1600,
+        "wires": [
+            [
+                "19757c7c3adbac10"
+            ]
+        ]
+    },
+    {
+        "id": "803c38128e8df37c",
+        "type": "join",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "5",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1470,
+        "y": 1960,
+        "wires": [
+            [
+                "19757c7c3adbac10"
+            ]
+        ]
+    },
+    {
+        "id": "87cc632bee2bff3f",
+        "type": "comment",
+        "z": "3cfe1d3910bcf87f",
+        "name": "4. HTTPS Login + Get Names + Ping ---------------------------------------------------------------------------------------------------------------------------------------",
+        "info": "3. HTTPS Login + Get Names + Ping",
+        "x": 620,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "bb4eaed159ec5c19",
+        "type": "http request",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d2bf60f22e4f73d",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "x-Auth-Token",
+                "valueType": "msg",
+                "valueValue": "xAuthToken"
+            }
+        ],
+        "x": 1090,
+        "y": 460,
+        "wires": [
+            [
+                "b069df3a5fa4ac8d"
+            ]
+        ]
+    },
+    {
+        "id": "4d3107391558eb8d",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Add token to message",
+        "func": "var xAuthToken = flow.get(\"x-Auth-Token\")\nmsg.xAuthToken = xAuthToken\n\nmsg.headers = {};\n\nvar ip = flow.get(\"ip_address\")\n\nmsg.url = \"https://\" + ip + \"/api/jsonrpc\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 500,
+        "wires": [
+            [
+                "bb4eaed159ec5c19"
+            ]
+        ]
+    },
+    {
+        "id": "b069df3a5fa4ac8d",
+        "type": "json",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1270,
+        "y": 460,
+        "wires": [
+            [
+                "a90983acd8701c22"
+            ]
+        ]
+    },
+    {
+        "id": "4bc5803adebb8183",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Toggle recording bit",
+        "func": "\nif (msg.payload === \"start recording\") {\n  msg.payload = true ;\n  global.set(\"recording_activated\", true)\n  global.set(\"recording_done\",false)   \n\n  flow.set(\"enabledTrace\", Date.now());\n}\n\n\n// Send JSON for HTTP\nvar val = msg.payload;\nvar index = 0;\n\nvar vartxt = \"\\\"LEdgeBuffer_DataExchange\\\".startRecording\";\nvar jsonObj = {\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"PlcProgram.Write\",\n  \"id\": index,\n  \"params\": {\n    \"var\": vartxt,\n    \"value\": val\n  }\n}\n\n\nmsg.payload = jsonObj;\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 540,
+        "wires": [
+            [
+                "4d3107391558eb8d"
+            ]
+        ]
+    },
+    {
+        "id": "6474cae81611fbf9",
+        "type": "join",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1730,
+        "y": 2980,
+        "wires": [
+            [
+                "985736edd5a93a75"
+            ]
+        ]
+    },
+    {
+        "id": "985736edd5a93a75",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "on3",
+        "func": "var msg1 = {};\n\nmsg1.payload = 1;\n\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1870,
+        "y": 2980,
+        "wires": [
+            [
+                "e496d2a29ad42276"
+            ]
+        ]
+    },
+    {
+        "id": "e496d2a29ad42276",
+        "type": "link out",
+        "z": "3cfe1d3910bcf87f",
+        "name": "read_var_done",
+        "mode": "link",
+        "links": [
+            "0d51c8eeae349d96"
+        ],
+        "x": 1975,
+        "y": 2980,
+        "wires": []
+    },
+    {
+        "id": "6ed65fe88a37d7d2",
+        "type": "ui_text_input",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Password",
+        "label": "Password",
+        "tooltip": "",
+        "group": "e75ab9ccb7e774a4",
+        "order": 3,
+        "width": "6",
+        "height": 1,
+        "passthru": false,
+        "mode": "password",
+        "delay": "0",
+        "topic": "password",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 240,
+        "y": 2480,
+        "wires": [
+            [
+                "45be63a1968ca6ae"
+            ]
+        ]
+    },
+    {
+        "id": "537a3c8250ccfb48",
+        "type": "ui_text_input",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Username input",
+        "label": "Username",
+        "tooltip": "",
+        "group": "e75ab9ccb7e774a4",
+        "order": 2,
+        "width": "6",
+        "height": 1,
+        "passthru": false,
+        "mode": "text",
+        "delay": "0",
+        "topic": "username",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 300,
+        "y": 2420,
+        "wires": [
+            [
+                "d9954a61c5ca3479"
+            ]
+        ]
+    },
+    {
+        "id": "abe7e6bc4e85a5ab",
+        "type": "debug",
+        "z": "3cfe1d3910bcf87f",
+        "name": "debug 12",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "d9954a61c5ca3479",
+        "type": "join",
+        "z": "3cfe1d3910bcf87f",
+        "name": "login_creds",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 590,
+        "y": 2540,
+        "wires": [
+            [
+                "49c8ca08c399512d"
+            ]
+        ]
+    },
+    {
+        "id": "45be63a1968ca6ae",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "complete true",
+        "func": "msg.complete = true;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 2540,
+        "wires": [
+            [
+                "d9954a61c5ca3479"
+            ]
+        ]
+    },
+    {
+        "id": "932243123fdd4d47",
+        "type": "ui_button",
+        "z": "3cfe1d3910bcf87f",
+        "name": "login",
+        "group": "e75ab9ccb7e774a4",
+        "order": 4,
+        "width": "6",
+        "height": "1",
+        "passthru": false,
+        "label": "login",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "login",
+        "topicType": "str",
+        "x": 210,
+        "y": 2620,
+        "wires": [
+            [
+                "fd2ea064bab36e7d"
+            ]
+        ]
+    },
+    {
+        "id": "49c8ca08c399512d",
+        "type": "join",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "mode": "custom",
+        "build": "merged",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 770,
+        "y": 2600,
+        "wires": [
+            [
+                "fbe755f86016c4f4"
+            ]
+        ]
+    },
+    {
+        "id": "fd2ea064bab36e7d",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "complete true",
+        "func": "msg.complete = true;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 2620,
+        "wires": [
+            [
+                "49c8ca08c399512d"
+            ]
+        ]
+    },
+    {
+        "id": "fbe755f86016c4f4",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "login request json",
+        "func": "var usern = msg.payload.username;\nvar passw = msg.payload.password;\n\nvar jsonRpc = {\n    \"id\" : 0,\n    \"jsonrpc\" : \"2.0\",\n    \"method\" : \"Api.Login\",\n    \"params\" : {\n        \"user\" : usern,\n        \"password\": passw\n    }\n}\n\nmsg.payload = jsonRpc;\n\nvar ip = flow.get(\"ip_address\")\n\nmsg.url = \"https://\" + ip + \"/api/jsonrpc\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 2640,
+        "wires": [
+            [
+                "7afefbd9d68a8d88"
+            ]
+        ]
+    },
+    {
+        "id": "e5f4b31450d162eb",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 110,
+        "y": 2420,
+        "wires": [
+            [
+                "537a3c8250ccfb48",
+                "6ed65fe88a37d7d2",
+                "76582125a0a81df3"
+            ]
+        ]
+    },
+    {
+        "id": "6a02539eb6fe892a",
+        "type": "ui_text",
+        "z": "3cfe1d3910bcf87f",
+        "group": "e75ab9ccb7e774a4",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "auth result",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1590,
+        "y": 2540,
+        "wires": []
+    },
+    {
+        "id": "26c60517943946b0",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 1450,
+        "y": 2460,
+        "wires": [
+            [
+                "6a02539eb6fe892a"
+            ]
+        ]
+    },
+    {
+        "id": "ab0083a1e404a804",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "init_flow_vars",
+        "func": "\nvar emptyObj = {};\n\n\nflow.set(\"crnt_timestamp\", null);  // init current timestamp with null\nflow.set(\"trace_finish\", false); // init flag for stopping recording\n\nflow.set(\"json_file\", emptyObj); // json format for FFT sending\nflow.set(\"json_static\", true); // json format must only be created once\n\nflow.set(\"mqtt_in_max\", 75); // max for reading trace\nflow.set(\"mqtt_in_buffer\", []); // buffer as data comes in\nflow.set(\"mqtt_in_cntr\", 0); // set counter for twin function\n\n//flow.set(\"cntr_writef\", 0); // counter for writing files\n//flow.set(\"cntr_writefb\", 0); // counter for writing binary files\nflow.set(\"cntr_readfb\", 0); // counter for reading binary files\n\nflow.set(\"current_names\", new Array(15).fill(\"\"))\n\n\nflow.set(\"trace_obj\", {});\nflow.set(\"trace_array\", new Array(3000).fill(0));\n//flow.set(\"trace_of_trace\", []);\n\nflow.set(\"max_cycles_val_once\", false);\nflow.set(\"crnt_cycles\", 0);\n//flow.set(\"parserIdle\", true);\nflow.set(\"disconnect_cntr\", 0); // number of times disconnected from MQTT\n\nflow.set(\"ip_address\", \"192.168.10.100\"); // PLC ip address\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "286b9917f737df43",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0",
+        "topic": "",
+        "x": 1050,
+        "y": 120,
+        "wires": [
+            [
+                "ab0083a1e404a804",
+                "bb8acc45b77c1d6d"
+            ]
+        ]
+    },
+    {
+        "id": "e4c4130db744824e",
+        "type": "switch",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ping",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "ping",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1370,
+        "y": 2900,
+        "wires": [
+            [],
+            [
+                "017a5689896c08c9"
+            ]
+        ]
+    },
+    {
+        "id": "9d1973dfbfbc9886",
+        "type": "ui_text_input",
+        "z": "3cfe1d3910bcf87f",
+        "name": "buffer_led_id",
+        "label": "readyForTrigger OPC-UA identifier",
+        "tooltip": "",
+        "group": "a9b840b7.977e5",
+        "order": 9,
+        "width": "13",
+        "height": "1",
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 390,
+        "y": 920,
+        "wires": [
+            [
+                "79cdff050edeb1d6"
+            ]
+        ]
+    },
+    {
+        "id": "66447e3a2dc0818c",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "readyForTrigger",
+        "func": "msg.topic = flow.get(\"rdy4trig\");\n\nmsg.datatype = \"Int32\";\nmsg.browseName = \"readyForTrigger\";\n\nmsg.payload = null;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 700,
+        "wires": [
+            [
+                "563d3fc88afd3c02"
+            ]
+        ]
+    },
+    {
+        "id": "fcb9b3b8b8f4b5ca",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "currentBuffer_statem",
+        "func": "msg.topic = flow.get(\"bfr_statem\");\n\nmsg.datatype = \"Int32\";\nmsg.browseName = \"currentBufferStateMachine\";\n\nmsg.payload = null;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 740,
+        "wires": [
+            [
+                "563d3fc88afd3c02"
+            ]
+        ]
+    },
+    {
+        "id": "fcd01bcc487b9aad",
+        "type": "ui_text_input",
+        "z": "3cfe1d3910bcf87f",
+        "name": "buffer_SM_status_id",
+        "label": "StateMachine OPC-UA identifier",
+        "tooltip": "",
+        "group": "a9b840b7.977e5",
+        "order": 10,
+        "width": "13",
+        "height": "1",
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 340,
+        "y": 980,
+        "wires": [
+            [
+                "a862a3482d8ea0c3"
+            ]
+        ]
+    },
+    {
+        "id": "19a37abe92ec395c",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "name": "default_buffer_sm_id",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ns=3;s=\"LEdgeBuffer_DataExchange\".\"currentBufferStateMachine\"",
+        "payloadType": "str",
+        "x": 120,
+        "y": 980,
+        "wires": [
+            [
+                "fcd01bcc487b9aad"
+            ]
+        ]
+    },
+    {
+        "id": "79cdff050edeb1d6",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "set_var_r4t",
+        "func": "flow.set(\"rdy4trig\", msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a862a3482d8ea0c3",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "set_var_buffersm",
+        "func": "flow.set(\"bfr_statem\", msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c12886b651cc0d5",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 150,
+        "y": 740,
+        "wires": [
+            [
+                "e1356918eb920e02"
+            ]
+        ]
+    },
+    {
+        "id": "5d2a0cd58c772ce1",
+        "type": "debug",
+        "z": "3cfe1d3910bcf87f",
+        "name": "debug 13",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1480,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "e1356918eb920e02",
+        "type": "ui_button",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "group": "a9b840b7.977e5",
+        "order": 11,
+        "width": "4",
+        "height": "1",
+        "passthru": true,
+        "label": "Get OPC-UA indicators",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 350,
+        "y": 740,
+        "wires": [
+            [
+                "66447e3a2dc0818c",
+                "fcb9b3b8b8f4b5ca",
+                "1212ad30776c7a11"
+            ]
+        ]
+    },
+    {
+        "id": "3079cdb4e7ca7ecd",
+        "type": "debug",
+        "z": "3cfe1d3910bcf87f",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2260,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "6ae282f9f4dc3a57",
+        "type": "ui_led",
+        "z": "3cfe1d3910bcf87f",
+        "order": 4,
+        "group": "a9b840b7.977e5",
+        "width": "4",
+        "height": "2",
+        "label": "STATUS",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#1cf000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#ffca0a",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "sending status",
+        "x": 2360,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "2105a0bb768b83d7",
+        "type": "change",
+        "z": "3cfe1d3910bcf87f",
+        "name": "set ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2170,
+        "y": 1820,
+        "wires": [
+            [
+                "6ae282f9f4dc3a57"
+            ]
+        ]
+    },
+    {
+        "id": "59ac74f70dfbc08f",
+        "type": "change",
+        "z": "3cfe1d3910bcf87f",
+        "name": "unset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2170,
+        "y": 1740,
+        "wires": [
+            [
+                "6ae282f9f4dc3a57"
+            ]
+        ]
+    },
+    {
+        "id": "b16960ea3fd1d3f2",
+        "type": "join",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 2050,
+        "y": 1680,
+        "wires": [
+            [
+                "59ac74f70dfbc08f",
+                "3079cdb4e7ca7ecd"
+            ]
+        ]
+    },
+    {
+        "id": "0aa36713e45269aa",
+        "type": "link out",
+        "z": "3cfe1d3910bcf87f",
+        "name": "sending_indicator",
+        "mode": "link",
+        "links": [
+            "3ee0f50f5505f1ba"
+        ],
+        "x": 405,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "6ddd397faa2d8609",
+        "type": "link out",
+        "z": "3cfe1d3910bcf87f",
+        "name": "sending_indicator",
+        "mode": "link",
+        "links": [
+            "3ee0f50f5505f1ba"
+        ],
+        "x": 635,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "3ee0f50f5505f1ba",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "link in 1",
+        "links": [
+            "0aa36713e45269aa",
+            "6ddd397faa2d8609"
+        ],
+        "x": 2035,
+        "y": 1820,
+        "wires": [
+            [
+                "2105a0bb768b83d7"
+            ]
+        ]
+    },
+    {
+        "id": "a32c1ae17a5dad9d",
+        "type": "comment",
+        "z": "3cfe1d3910bcf87f",
+        "name": "5. Send to FFT ---------------------------------------------------------------------------------------------------------------------------------------",
+        "info": "3. HTTPS Login + Get Names + Ping",
+        "x": 530,
+        "y": 3120,
+        "wires": []
+    },
+    {
+        "id": "67d9b81844742362",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "trace_collector",
+        "func": "// -------------------- variable init -------------------------------------------\n// Extract necessary info from signal measurement\nvar shouldIstop = flow.get(\"trace_finish\");\nif(shouldIstop == true) return null;\n\nvar measure_obj = msg.json_edge_buffer_file;\n\nvar measName = measure_obj.measurement.signalNamePLC;\nvar measType = measure_obj.measurement.signalDataTypePLC;\nvar data = measure_obj.measurement.data;\n\n// time variables initialization\n//var startTime = measure_obj.traceHeader.startBufferSample.timestamp;\nvar startTime_precision = measure_obj.traceHeader.firstTriggerSample.timestamp;\n\n//var endTime = measure_obj.traceHeader.endBufferSample.timestamp;\nvar endTime_precision = measure_obj.traceHeader.lastSample.timestamp;\n\n// get main array\nvar teprArray = flow.get(\"teprimi\");\nvar teprIdx = flow.get(\"teprimi_idx\");\n\n// template for trace Object in case of initialization\nvar traceObj = {\n    start_time: startTime_precision,\n    end_time: endTime_precision,\n    measurements: [{ name: measName, type: measType, data: data }]\n}\n\nvar crnt_time = flow.get(\"crnt_timestamp\");\n\nvar trace_len = 11;\n\n// -------------------- program logic -------------------------------------------\n\n\n// Check for time consistency (w/ respect to last found timestamp)\nif(crnt_time == null){ // inital timestamp can be replaced if still null\n    crnt_time = startTime_precision;\n    flow.set(\"crnt_timestamp\", crnt_time);\n    teprArray[teprIdx] = traceObj;\n}\n\n\nif(crnt_time == startTime_precision){ // if time matches append to current sample\n    teprArray[teprIdx].measurements.push({ name: measName, type: measType, data: data }); // simple append\n}\nelse { // if time mismatch then shift array and init trace Object\n\n    /*teprArray.forEach((item, index, array) => {\n        if( index == 0 ){}\n        else { array[index-1] = item; }\n    });*/\n    \n    teprIdx += 1;\n    // Check for stop of recording\n    if ( teprIdx == trace_len ) { flow.set(\"trace_finish\", true); \n        msg = {};\n        teprArray.shift();\n        msg.teprimi = teprArray;\n        return msg; }\n    teprArray[teprIdx] = traceObj;\n    flow.set(\"crnt_timestamp\", startTime_precision); // set new time due to mismatch\n    flow.set(\"teprimi_idx\", teprIdx);\n}\n\nflow.set(\"teprimi\", teprArray);\n\n\n\nmsg = {};\nmsg.teprimi = teprArray;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "\n",
+        "finalize": "",
+        "libs": [],
+        "x": 1280,
+        "y": 3420,
+        "wires": [
+            [
+                "74a9bf90e2188e19"
+            ]
+        ]
+    },
+    {
+        "id": "ae3dfd5b73cd2adb",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "static_props_json_for_FFT",
+        "func": "var shouldIeven = flow.get(\"json_static\");\nif(shouldIeven == false) return null;\n\n// init all static properties of JSON format of FFT\nvar plcName = msg.topic.split(\"/\");\nvar measName = msg.json_edge_buffer_file.measurementName;\n\nvar buffer_size = 4;\nvar duration = msg.json_edge_buffer_file.duration * buffer_size;\nvar cycle = msg.json_edge_buffer_file.cycletime;\n\nvar serialNum = msg.json_edge_buffer_file.plcMetadata.serialNumber;\nvar firmwv = msg.json_edge_buffer_file.plcMetadata.firmwareVersion;\n\nvar ipAddr = \"158.92.118.191\";\n\n// propagate static props to JSON object\nvar json_format = {\n    \"plcName\": plcName[2],\n    \"measurementName\": measName,\n    \"traceStartType\": \"IMMEDIATE\",\n    \"duration\": duration,\n    \"pretrigger\": 0,\n    \"ipAddress\": ipAddr,\n    \"tracejobId\": 100,\n    \"turningSpeed\": 0,\n    \"cycletime\": cycle,\n    \"plcSerialNumber\": serialNum,\n    \"plcFirmwareVersion\": firmwv,\n    \"variables\": []\n}\n\nflow.set(\"json_file\", json_format); // push JSON format to flow context\nflow.set(\"json_static\", false); // only once\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 3360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4734fbb2a402a6d7",
+        "type": "link out",
+        "z": "3cfe1d3910bcf87f",
+        "name": "MQTT payloads",
+        "mode": "link",
+        "links": [
+            "63f2472d89e40b0f"
+        ],
+        "x": 1175,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "63f2472d89e40b0f",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "name": "MQTT payloads",
+        "links": [
+            "4734fbb2a402a6d7"
+        ],
+        "x": 235,
+        "y": 3240,
+        "wires": [
+            [
+                "0e706d743482be01",
+                "2afbfb0d74165882"
+            ]
+        ]
+    },
+    {
+        "id": "74a9bf90e2188e19",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "concatenation",
+        "func": "var shouldIeven = flow.get(\"trace_finish\");\n\nvar full_data = [];\nvar data ;\n\nif( shouldIeven == true ) { \n    var jsonFFT = flow.get(\"json_file\");\n    var teprArray = msg.teprimi;\n    \n\n    for(var i=0; i<15; i++ ) {\n        full_data = [];\n        teprArray.forEach((item ) => {\n            data = [];\n            data = item.measurements[i].data;\n            full_data.push( data );\n            });\n        var measObj = {\n            \"varType\": teprArray[0].measurements[i].type,\n            \"varName\": teprArray[0].measurements[i].name,\n            \"measurements\": full_data.flat()\n        }\n        jsonFFT.variables.push(measObj);\n    }  \n    flow.set(\"json_file\", jsonFFT); \n\n}\nelse { return null; }\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1520,
+        "y": 3420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6aadc59075606da7",
+        "type": "debug",
+        "z": "3cfe1d3910bcf87f",
+        "name": "debug 14",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 3240,
+        "wires": []
+    },
+    {
+        "id": "7c8f0d82da7ba388",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "set in flow",
+        "func": "flow.set(\"mqtt_in_buffer\", msg.payload);\n\nvar buffer = msg.payload;\nvar crnt_name = buffer[1].signalNamePLC;\nvar miss_cntr = 0;\n\nbuffer.forEach((item, index, array) => {\n    if (item.signalNamePLC == crnt_name ) miss_cntr++;\n    crnt_name = item.signalNamePLC;\n});\n\nmsg = {};\nmsg.miss_counter = miss_cntr;\n\nflow.set(\"missCounter\", miss_cntr);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 3480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2c31a4a9594a0665",
+        "type": "link in",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "link in 2",
+        "links": [
+            "29f856b2c3c268d5"
+        ],
+        "x": 125,
+        "y": 420,
+        "wires": [
+            [
+                "05dadf2655d0b314"
+            ]
+        ]
+    },
+    {
+        "id": "0feecec3f99f1f81",
+        "type": "change",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 420,
+        "wires": [
+            [
+                "5163793d848f4ce9"
+            ]
+        ]
+    },
+    {
+        "id": "05dadf2655d0b314",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "empty",
+        "func": "msg = {};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 420,
+        "wires": [
+            [
+                "0feecec3f99f1f81"
+            ]
+        ]
+    },
+    {
+        "id": "5a32962dbe5505fe",
+        "type": "file",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1940,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8091973d086fc9c",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "set_path",
+        "func": "var cntr = flow.get(\"cntr_writef\");\nvar max = flow.get(\"max_cycles_val\");\n\nmsg.path = '/home/siemens/mqtt_data/json_files/mqtt_objs' + cntr + '.json';\n\ncntr++;\nif(cntr >= max * 15) flow.set(\"cntr_writef\", 0);\nelse flow.set(\"cntr_writef\", cntr);\n\nmsg.payload = msg.json_edge_buffer_file;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1780,
+        "y": 180,
+        "wires": [
+            [
+                "5a32962dbe5505fe"
+            ]
+        ]
+    },
+    {
+        "id": "84370abd89d4d86e",
+        "type": "http request",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d2bf60f22e4f73d",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "x-Auth-Token",
+                "valueType": "msg",
+                "valueValue": "xAuthToken"
+            }
+        ],
+        "x": 1630,
+        "y": 3080,
+        "wires": [
+            [
+                "fc6bb3a30e043c05"
+            ]
+        ]
+    },
+    {
+        "id": "58f9f7a23311a786",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "Add token to message",
+        "func": "var xAuthToken = flow.get(\"x-Auth-Token\")\nmsg.xAuthToken = xAuthToken\n\nmsg.headers = {};\n\nvar ip = flow.get(\"ip_address\")\n\nmsg.url = \"https://\" + ip + \"/api/jsonrpc\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1420,
+        "y": 3080,
+        "wires": [
+            [
+                "84370abd89d4d86e"
+            ]
+        ]
+    },
+    {
+        "id": "55470b3a8f74db05",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "get file names",
+        "func": "var path = '/UserFiles';\nvar jsonObj = {\n    \"jsonrpc\": \"2.0\",\n    \"method\": \"Files.Browse\",\n    \"id\": 1,\n    \"params\": {\n        \"resource\": path\n    }\n}\n\nmsg.payload = jsonObj;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1200,
+        "y": 3080,
+        "wires": [
+            [
+                "58f9f7a23311a786"
+            ]
+        ]
+    },
+    {
+        "id": "fc6bb3a30e043c05",
+        "type": "json",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1790,
+        "y": 3080,
+        "wires": [
+            [
+                "7bcfa43f47a291e8",
+                "23b64716613c78ab"
+            ]
+        ]
+    },
+    {
+        "id": "4fdefcf4a8fd5454",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1030,
+        "y": 3080,
+        "wires": [
+            [
+                "55470b3a8f74db05"
+            ]
+        ]
+    },
+    {
+        "id": "7bcfa43f47a291e8",
+        "type": "debug",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2120,
+        "y": 3000,
+        "wires": []
+    },
+    {
+        "id": "23b64716613c78ab",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "delete all files",
+        "func": "var jsonArr = [];\nvar nameArr = msg.payload.result.resources;\n\nvar path = '/UserFiles/';\n\nnameArr.forEach((val, idx) => {\n    var fname = val.name;\n    var fpath = path + fname;\n    var jsonObj = {\n        \"jsonrpc\": \"2.0\",\n        \"method\": \"Files.Delete\",\n        \"id\": idx,\n        \"params\": {\n            \"resource\": fpath\n        }\n    }\n    jsonArr.push( jsonObj );\n\n});\n\nmsg.payload = jsonArr;\n\nvar ip = flow.get(\"ip_address\")\n\nmsg.url = \"https://\" + ip + \"/api/jsonrpc\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1980,
+        "y": 3120,
+        "wires": [
+            [
+                "1116ba7f0e5e4d89"
+            ]
+        ]
+    },
+    {
+        "id": "1116ba7f0e5e4d89",
+        "type": "http request",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "8d2bf60f22e4f73d",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "x-Auth-Token",
+                "valueType": "msg",
+                "valueValue": "xAuthToken"
+            }
+        ],
+        "x": 2170,
+        "y": 3120,
+        "wires": [
+            [
+                "3b6a358750f75d59"
+            ]
+        ]
+    },
+    {
+        "id": "3b6a358750f75d59",
+        "type": "json",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 2330,
+        "y": 3120,
+        "wires": [
+            [
+                "7bcfa43f47a291e8"
+            ]
+        ]
+    },
+    {
+        "id": "0e706d743482be01",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "push to trace obj",
+        "func": "// extract data from message\nvar measure_obj = msg.json_edge_buffer_file;\n\nvar measName = measure_obj.measurement.signalNamePLC;\nvar measType = measure_obj.measurement.signalDataTypePLC;\nvar data = measure_obj.measurement.data;\n\nvar signal = { \"type\": measType, \"data\": data };\n\n// time variables initialization\n//var startTime = measure_obj.traceHeader.startBufferSample.timestamp;\nvar startTime_precision = measure_obj.traceHeader.firstTriggerSample.timestamp;\n\n// set start timestamp for further calculation\n\n\n// get trace object\nvar trace = flow.get(\"trace_obj\");\n\nvar time_names = undefined;\nvar time_len = undefined;\n\n\n// decide how to append to the object\nif (startTime_precision in trace === true) {\n    var timeframe = trace[startTime_precision];\n    timeframe[measName] = signal;\n    msg.join = false;\n}\nelse {\n    trace[startTime_precision] = { [measName]: signal };\n    time_names = Object.keys(trace);\n    time_len = time_names.length;\n    if (time_len == 1) {\n        msg.join = false;\n    }\n    else {\n        msg.join = true;\n        msg.startTime = time_names[time_len - 2];\n    }\n\n}\n\n\n\n// flag for enabling next nodes\nif (msg.topic == 'joinData') {\n    msg.join = true;\n    msg.startTime = startTime_precision;\n}\n\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 3240,
+        "wires": [
+            [
+                "a623bc5cc385bbc1"
+            ]
+        ]
+    },
+    {
+        "id": "b84dbf081585190e",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "join_data",
+        "func": "if( msg.join == false ) return null;\n\n\nvar trace = flow.get(\"trace_obj\");\n\nvar moments = Object.keys(trace);\n\nvar firstTime = Date.parse(moments[0]);\n\nvar full_signals = {};\n\nmoments.forEach((momnt) => {\n    var inside = trace[momnt];\n    var signals = Object.keys( inside );\n    signals.forEach((signal) => {\n        var sig_props = inside[signal];\n        if(signal in full_signals === false){\n            full_signals[signal] = { 'type': sig_props.type, 'startTime': firstTime, 'data': []}\n        }\n        full_signals[signal].data.push( sig_props.data );\n    });\n\n});\n\nvar sigNames = Object.keys(full_signals);\n\nsigNames.forEach((sig) => {\n    var sig_obj = full_signals[sig];\n    sig_obj.data = sig_obj.data.flat();\n});\n\nif (msg.topic == 'joinData') {\n    flow.set(\"trace_obj\", {});\n    flow.set(\"prevTrace_obj\", full_signals);\n}\n\nvar cycletime = msg.json_edge_buffer_file.cycletime;\nvar totalSamples = msg.json_edge_buffer_file.traceHeader.totalSamples;\n\nmsg = {};\nmsg.cycletime = cycletime;\nmsg.totalSamples = totalSamples;\n\nmsg.payload = full_signals;\n\n\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 3320,
+        "wires": [
+            [
+                "02f169fd75406718",
+                "ad36b292fd22f1c0"
+            ]
+        ]
+    },
+    {
+        "id": "99e580e170c39b92",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 530,
+        "y": 3680,
+        "wires": [
+            [
+                "4e0b13f8aa957d30",
+                "2af037c4fc85d3d5"
+            ]
+        ]
+    },
+    {
+        "id": "e958c2029a430a33",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "set_path",
+        "func": "var cntr = flow.get(\"cntr_writefb\");\n\nmsg.path = '/home/siemens/mqtt_data/mqtt_bin_files/mqtt_bin_objs' + cntr + '.bin';\n\ncntr++;\nflow.set(\"cntr_writefb\", cntr);\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1780,
+        "y": 100,
+        "wires": [
+            [
+                "676de6ef670b9952"
+            ]
+        ]
+    },
+    {
+        "id": "676de6ef670b9952",
+        "type": "file",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "",
+        "filename": "path",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1940,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "21d7511da51257f3",
+        "type": "file in",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "read bin files",
+        "filename": "path",
+        "filenameType": "msg",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 1810,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "df552368f6ba60b5",
+        "type": "debug",
+        "z": "3cfe1d3910bcf87f",
+        "name": "debug 16",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1220,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "f9b8faced5398ae9",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "set_path",
+        "func": "var cntr = flow.get(\"cntr_readfb\");\nvar max_cyc = flow.get(\"max_cycles_val\");\nmsg = {};\n\nif(cntr >= max_cyc*15) {\n    flow.set(\"cntr_readfb\", 0);  \n    return null;\n}\nmsg.path = '/home/siemens/mqtt_data/mqtt_bin_files/mqtt_bin_objs' + cntr + '.bin';\n\ncntr++;\nflow.set(\"cntr_readfb\", cntr);\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1640,
+        "y": 140,
+        "wires": [
+            [
+                "21d7511da51257f3"
+            ]
+        ]
+    },
+    {
+        "id": "d6e1624b4d5bbfea",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 330,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f934efe6abdf7ec2",
+        "type": "inject",
+        "z": "3cfe1d3910bcf87f",
+        "name": "default_max_cycles",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ns=3;s=\"LEdgeBuffer_DataExchange\".\"maximumCycles\"",
+        "payloadType": "str",
+        "x": 200,
+        "y": 860,
+        "wires": [
+            [
+                "720cbd000336c42e"
+            ]
+        ]
+    },
+    {
+        "id": "720cbd000336c42e",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "set_var_maxCyc",
+        "func": "flow.set(\"max_cycles\", msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1212ad30776c7a11",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "max_cycles",
+        "func": "msg.topic = flow.get(\"max_cycles\");\n\nmsg.datatype = \"Int32\";\nmsg.browseName = \"maximumCycles\";\n\nmsg.payload = null;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 780,
+        "wires": [
+            [
+                "563d3fc88afd3c02"
+            ]
+        ]
+    },
+    {
+        "id": "5668e8e879ba7900",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "save max cycle val",
+        "func": "flow.set(\"max_cycles_val\", msg.payload);\n\nif (flow.get(\"max_cycles_val_once\") == false){\n    flow.set(\"max_cycles_val_once\", true);\n    return msg;\n}\nelse return null;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 880,
+        "wires": [
+            [
+                "bc5adc4cdc1cad7c",
+                "5d2a0cd58c772ce1"
+            ]
+        ]
+    },
+    {
+        "id": "7ae3de0e49c48c08",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "save to trace array",
+        "func": "var buffer = msg.payload;\n\nvar traceArr = flow.get(\"trace_array\");\n\nvar crnt_cyc = flow.get(\"crnt_cycles\");\n\ntraceArr[crnt_cyc] = buffer;\n\ncrnt_cyc ++;\nflow.set(\"crnt_cycles\", crnt_cyc);\n\n\n\nif ( (crnt_cyc == 75)) return { topic: '' };\nelse return null;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 160,
+        "wires": [
+            [
+                "1a4b829aa527d92c"
+            ]
+        ]
+    },
+    {
+        "id": "1a4b829aa527d92c",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "access_array",
+        "func": "var max_cyc = flow.get(\"max_cycles_val\");\nvar cntr = flow.get(\"cntr_readfb\");\nvar crnt_cyc = flow.get(\"crnt_cycles\");\n\nif (msg.topic == 'joinData') { return [null, null]; }\nif ( ((crnt_cyc-cntr) < 75) && (crnt_cyc != (max_cyc*15) ) ) { \n    return [msg, null]; \n} \n\n\nvar traceArr = flow.get(\"trace_array\");\n\nmsg = {};\nmsg.topic = 'parsing';\n\nmsg.payload = traceArr[cntr]; // access buffer from array\n\n\ncntr++;\nif ( (cntr % 15) == 0) {\n    msg.topic = 'parseDone';\n}\nif ( cntr == (max_cyc * 15)) {\n    msg.topic = 'joinData';\n    cntr = 0;\n    flow.set(\"crnt_cycles\", 0);\n    //flow.set(\"trace_array\", []);\n}\n\n\nflow.set(\"cntr_readfb\", cntr);\n\nreturn [null, msg];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 280,
+        "wires": [
+            [
+                "e9aab0b05e22ffe6"
+            ],
+            [
+                "223f5aa7dfb64d3e"
+            ]
+        ]
+    },
+    {
+        "id": "ad36b292fd22f1c0",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "prepare for chart",
+        "func": "var full_signals = msg.payload;\nvar sig_names = Object.keys(full_signals);\n\nvar cycletime = msg.cycletime;\nvar totalSamples = msg.totalSamples;\n\nvar sig_names_real = [];\nvar sig_names_word = [];\nvar sig_names_int = [];\n\nvar chart_array = [];\n\nvar series_array_real = [];\nvar series_array_int = [];\nvar series_array_word = [];\n\nvar dataL = full_signals[sig_names[0]].data.length;\nvar startTime = full_signals[sig_names[0]].startTime;\nvar timeArr = [];\nfor (let k = 0; k <= dataL; k += (dataL / totalSamples)) {\n    timeArr.push(startTime + (k * cycletime));\n}\n\n\nfor (let j = 0; j < 15; j++) {\n    var signal = full_signals[sig_names[j]];\n    var dataLen = signal.data.length;\n    for (let i = 0; i <= dataLen; i += (dataLen / totalSamples)) {\n        var xy_obj = { 'x': timeArr[i / (dataLen / totalSamples)], 'y': signal.data[i] };\n        chart_array.push(xy_obj);\n    }\n    switch (signal.type) {\n        case 'real':\n            series_array_real.push(chart_array);\n            sig_names_real.push(sig_names[j]);\n            break;\n        case 'int':\n            series_array_int.push(chart_array);\n            sig_names_int.push(sig_names[j]);\n            break;\n        case 'word':\n            series_array_word.push(chart_array);\n            sig_names_word.push(sig_names[j]);\n    }\n\n    chart_array = [];\n}\n\n\nvar chart_format_real = [{\n    \"series\": sig_names_real,\n    \"data\": series_array_real,\n    \"labels\": [\"\"]\n}]\n\nvar chart_format_int = [{\n    \"series\": sig_names_int,\n    \"data\": series_array_int,\n    \"labels\": [\"\"]\n}]\n\nvar chart_format_word = [{\n    \"series\": sig_names_word,\n    \"data\": series_array_word,\n    \"labels\": [\"\"]\n}]\n\nvar msg_real = { payload: chart_format_real };\nvar msg_int = { payload: chart_format_int };\nvar msg_word = { payload: chart_format_word };\n\n\nreturn [msg_real, msg_int, msg_word];\n",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 3400,
+        "wires": [
+            [
+                "837ad3c8957c2555"
+            ],
+            [
+                "66d245b7d60d7491"
+            ],
+            [
+                "845d375b876070ba"
+            ]
+        ]
+    },
+    {
+        "id": "837ad3c8957c2555",
+        "type": "ui_chart",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Real Charts",
+        "group": "4628b76924451903",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Signal Graph Reals",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 3340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "66d245b7d60d7491",
+        "type": "ui_chart",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Int Charts",
+        "group": "4628b76924451903",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Signal Graph Int",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 940,
+        "y": 3400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "845d375b876070ba",
+        "type": "ui_chart",
+        "z": "3cfe1d3910bcf87f",
+        "name": "Word Charts",
+        "group": "4628b76924451903",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Signal Graph Word",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 3460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bc5adc4cdc1cad7c",
+        "type": "ui_numeric",
+        "z": "3cfe1d3910bcf87f",
+        "name": "trace length adjuster",
+        "label": "Trace length",
+        "tooltip": "",
+        "group": "5f55aea022caf8b1",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}} seconds",
+        "min": "10",
+        "max": "200",
+        "step": "10",
+        "className": "",
+        "x": 280,
+        "y": 580,
+        "wires": [
+            [
+                "a786f1c6a451c7b8"
+            ]
+        ]
+    },
+    {
+        "id": "a786f1c6a451c7b8",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "adjust trace length",
+        "func": "flow.set(\"max_cycles_val\", msg.payload);\n\n// Send JSON for HTTP\nvar val = msg.payload;\nvar index = 0;\n\nvar vartxt = \"\\\"LEdgeBuffer_DataExchange\\\".maximumCycles\";\nvar jsonObj = {\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"PlcProgram.Write\",\n  \"id\": index,\n  \"params\": {\n    \"var\": vartxt,\n    \"value\": val\n  }\n}\n\n\nmsg.payload = jsonObj;\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 580,
+        "wires": [
+            [
+                "4d3107391558eb8d",
+                "5f127a86c53cd1d2"
+            ]
+        ]
+    },
+    {
+        "id": "73fcd0ccb5017b91",
+        "type": "ui_led",
+        "z": "3cfe1d3910bcf87f",
+        "order": 5,
+        "group": "5f55aea022caf8b1",
+        "width": 0,
+        "height": 0,
+        "label": "Trace length adjusted",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ffc629",
+                "value": "-1",
+                "valueType": "num"
+            },
+            {
+                "color": "#008000",
+                "value": "1",
+                "valueType": "num"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "trace length success",
+        "x": 1460,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "8eebd7db70f3b8c1",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "light up green",
+        "func": "msg = {};\n\nmsg.payload = 1;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1200,
+        "y": 640,
+        "wires": [
+            [
+                "73fcd0ccb5017b91"
+            ]
+        ]
+    },
+    {
+        "id": "5f127a86c53cd1d2",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "light up orange",
+        "func": "msg = {};\n\nmsg.payload = -1;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1200,
+        "y": 600,
+        "wires": [
+            [
+                "73fcd0ccb5017b91"
+            ]
+        ]
+    },
+    {
+        "id": "bb8acc45b77c1d6d",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "init parser class",
+        "func": "var PlcMetadataConv;\n(function (PlcMetadataConv) {\n    PlcMetadataConv[PlcMetadataConv[\"SERIAL_NUMBER\"] = 0] = \"SERIAL_NUMBER\";\n    PlcMetadataConv[PlcMetadataConv[\"DEVICE_FIRMWARE\"] = 1] = \"DEVICE_FIRMWARE\";\n    PlcMetadataConv[PlcMetadataConv[\"DEVICE_NAME\"] = 2] = \"DEVICE_NAME\";\n})(PlcMetadataConv || (PlcMetadataConv = {}));\nvar SignalMetadataConv;\n(function (SignalMetadataConv) {\n    SignalMetadataConv[SignalMetadataConv[\"SIGNAL_NAME\"] = 0] = \"SIGNAL_NAME\";\n    SignalMetadataConv[SignalMetadataConv[\"SIGNAL_TYPE\"] = 1] = \"SIGNAL_TYPE\";\n})(SignalMetadataConv || (SignalMetadataConv = {}));\nvar TraceMetadataConv;\n(function (TraceMetadataConv) {\n    TraceMetadataConv[TraceMetadataConv[\"FIRST_SAMPLE_VALUE\"] = 0] = \"FIRST_SAMPLE_VALUE\";\n    TraceMetadataConv[TraceMetadataConv[\"FIRST_SAMPLE_TIMESTAMP\"] = 1] = \"FIRST_SAMPLE_TIMESTAMP\";\n    TraceMetadataConv[TraceMetadataConv[\"LAST_SAMPLE_VALUE\"] = 2] = \"LAST_SAMPLE_VALUE\";\n    TraceMetadataConv[TraceMetadataConv[\"LAST_SAMPLE_TIMESTAMP\"] = 3] = \"LAST_SAMPLE_TIMESTAMP\";\n})(TraceMetadataConv || (TraceMetadataConv = {}));\nclass SignalParser {\n    constructor(_buffer) {\n        this._buffer = _buffer;\n        this._signalData = [];\n        this.bufferByteLen = Buffer.byteLength(_buffer);\n        this._metadata = this.parseMetadata();\n        this._signalData = this.getSignalData();\n        this._samplesCalc = this.samplesCalculator();\n    }\n    /**\n     * Returns collection as final mapping object.\n     */\n    getCollection() {\n        return {\n            plcMetadata: {\n                model: this.plcMetadata[PlcMetadataConv.DEVICE_NAME],\n                serialNumber: this.plcMetadata[PlcMetadataConv.SERIAL_NUMBER],\n                firmwareVersion: this.plcMetadata[PlcMetadataConv.DEVICE_FIRMWARE].replace(/\\+*/g, \"\"), // Replacing all plus signs with empty string\n            },\n            measurementName: \"LEdgeBuffer\",\n            duration: this.samplesCalc.duration,\n            cycletime: this.samplesCalc.cycletime,\n            measurement: {\n                signalNamePLC: this.signalMetadata[SignalMetadataConv.SIGNAL_NAME],\n                signalDataTypePLC: this.signalMetadata[SignalMetadataConv.SIGNAL_TYPE],\n                data: this.signalData,\n            },\n            traceHeader: {\n                startBufferSample: {\n                    number: this.samplesCalc.firstBufferSampleIndex,\n                    timestamp: new Date(this.samplesCalc.startBufferSampleTimestamp).toISOString(),\n                },\n                endBufferSample: {\n                    number: this.samplesCalc.lastBufferSampleIndex,\n                    timestamp: new Date(this.samplesCalc.endBufferSampleTimestamp).toISOString(),\n                },\n                firstTriggerSample: {\n                    number: SignalParser.formatValue(this.traceMetadata[TraceMetadataConv.FIRST_SAMPLE_VALUE], \"number\", false),\n                    timestamp: this.traceMetadata[TraceMetadataConv.FIRST_SAMPLE_TIMESTAMP],\n                },\n                lastSample: {\n                    number: SignalParser.formatValue(this.traceMetadata[TraceMetadataConv.LAST_SAMPLE_VALUE], \"number\", false),\n                    timestamp: this.traceMetadata[TraceMetadataConv.LAST_SAMPLE_TIMESTAMP],\n                },\n                totalSamples: this.signalData.length,\n            },\n        };\n    }\n    /**\n     * Returns collection object inside \"collection\" property.\n     * Provides two helper methods:\n     *  - asJson() returns serialized collection object\n     *  - getCollection() returns collection object from \"collection\" property\n     * Usage:\n     * const parser = new Parser(blobData);\n     * parser.parse().get(); // returns collection object\n     * parser.parse().asJson(); // returns collection as JSON string\n     */\n    parse() {\n        const holder = {\n            collection: {},\n            asJson() {\n                return JSON.stringify(this.collection);\n            },\n            getCollection() {\n                return this.collection;\n            },\n        };\n        const collection = Object.create(holder);\n        collection.collection = this.getCollection();\n        return collection;\n    }\n    get samplesCalc() {\n        return this._samplesCalc;\n    }\n    /**\n     * Here goes all calculation needed for final mapping collection object.\n     */\n    samplesCalculator() {\n        const calc = {\n            timedelta: 0,\n            duration: 0,\n            cycletime: 0,\n            firstBufferSampleIndex: 0,\n            lastBufferSampleIndex: 0,\n            startBufferSampleTimestamp: 0,\n            endBufferSampleTimestamp: 0,\n        };\n        const lastSampleTime = new Date(this.traceMetadata[TraceMetadataConv.LAST_SAMPLE_TIMESTAMP]).getTime();\n        const firstSampleTime = new Date(this.traceMetadata[TraceMetadataConv.FIRST_SAMPLE_TIMESTAMP]).getTime();\n        calc.timedelta = lastSampleTime - firstSampleTime;\n        calc.firstBufferSampleIndex = SignalParser.formatValue(this.traceMetadata[TraceMetadataConv.FIRST_SAMPLE_VALUE], \"number\", false);\n        calc.lastBufferSampleIndex = SignalParser.formatValue(this.traceMetadata[TraceMetadataConv.LAST_SAMPLE_VALUE], \"number\", false);\n        const samplesNum = calc.lastBufferSampleIndex - calc.firstBufferSampleIndex;\n        if (samplesNum > 0) {\n            calc.cycletime = calc.timedelta / samplesNum;\n        }\n        calc.duration = (this.signalData.length - 1) * calc.cycletime;\n        if (calc.firstBufferSampleIndex === 0) {\n            // correct start buffer sample timestamp\n            calc.startBufferSampleTimestamp = firstSampleTime;\n        }\n        else {\n            // calculate start of the sampling (buffer 1st sample timestamp)\n            calc.startBufferSampleTimestamp =\n                firstSampleTime - calc.firstBufferSampleIndex * calc.cycletime;\n        }\n        calc.endBufferSampleTimestamp = lastSampleTime;\n        return calc;\n    }\n    /**\n     * Manages simple format processing on given value of type string or number.\n     * @asType = target type: number | string\n     * @treatInvalidValue: \"error\" | any;\n     *    - if any, value is going to be empty string for asType=string, or 0 for asType zero\n     *    - otherwise error is raised\n     */\n    static formatValue(value, asType, treatInvalidValue = \"error\") {\n        let val = value;\n        if (typeof val === \"string\" || val === undefined || val === null) {\n            if (!val) {\n                if (treatInvalidValue === \"error\") {\n                    throw new Error(`[formatValue] No value was given: ${val}`);\n                }\n                else {\n                    val = \"\";\n                }\n            }\n        }\n        switch (asType) {\n            case \"number\":\n                return +val;\n            case \"string\":\n                return val.toString();\n            default:\n                // ignore conversion\n                return val;\n        }\n    }\n    get buffer() {\n        return this._buffer;\n    }\n    get signalData() {\n        return this._signalData;\n    }\n    getSizeBySignalType(signalType) {\n        const conv = {\n            lreal: 8,\n            real: 4,\n            dint: 4,\n            int: 2,\n            dword: 4,\n            word: 2,\n        };\n        const size = conv[signalType];\n        if (!size) {\n            throw new Error(`Unsupported signal type: ${signalType}`);\n        }\n        return size;\n    }\n    /** metadata accessor */\n    get metadata() {\n        return this._metadata;\n    }\n    /** plcMetadata accessor */\n    get plcMetadata() {\n        if (!this.metadata[\"plcMetadata\"]) {\n            throw new Error(\"Missing `plcMetadata' - required!\");\n        }\n        return this.metadata[\"plcMetadata\"];\n    }\n    /** signalMetadata accessor */\n    get signalMetadata() {\n        if (!this.metadata[\"signalMetadata\"]) {\n            throw new Error(\"Missing `signalMetadata' - required!\");\n        }\n        return this.metadata[\"signalMetadata\"];\n    }\n    /** traceMetadata accessor */\n    get traceMetadata() {\n        if (!this.metadata[\"traceMetadata\"]) {\n            throw new Error(\"Missing `traceMetadata' - required!\");\n        }\n        return this.metadata[\"traceMetadata\"];\n    }\n    /** Get pointers where metadata starts and ends [number, number] */\n    get metadataRange() {\n        return [\n            this.buffer.slice(0, 4).readInt32BE(),\n            this.buffer.slice(4, 8).readInt32BE(),\n        ];\n    }\n    parseMetadata() {\n        return JSON.parse(this.buffer.slice(...this.metadataRange).toString());\n    }\n    /**\n     * Logging differ in nodejs and node-red environment.\n     * This method handles differences so logging can be used on both environments.\n     * Intended usage: this.log(\"my info\", {\"myObject\": []})\n     */\n    log(...args) {\n        // @ts-ignore\n        if (typeof node === \"object\") {\n            const r = [...args];\n            // @ts-ignore\n            node.warn(r);\n        }\n        else {\n            console.log(...args);\n        }\n    }\n    /** Slice of data reading helper */\n    getSignalData() {\n        function readSlice(signalType, slice) {\n            switch (signalType) {\n                case \"lreal\":\n                    return slice.readDoubleBE();\n                case \"real\":\n                    return slice.readFloatBE();\n                case \"dint\":\n                    return slice.readInt32BE();\n                case \"int\":\n                    return slice.readInt16LE();\n                case \"dword\":\n                    return slice.readUInt32BE();\n                case \"word\":\n                    return slice.readUInt16BE();\n                default:\n                    throw new Error(`[getSignalData] - Not supported type: ${signalType}`);\n            }\n        }\n        //for (let x of this.buffer.entries()) this.log(x);\n        const signalType = this.signalMetadata[SignalMetadataConv.SIGNAL_TYPE];\n        const values = [];\n        try {\n            const jump = this.getSizeBySignalType(signalType);\n            for (let index = this.metadataRange[1]; index < this.bufferByteLen; index += jump) {\n                let slice = this.buffer.slice(index, jump + index);\n                values.push(readSlice(signalType, slice));\n            }\n        }\n        catch (e) {\n            // Error to log\n            this.log(`[getSignalData] error catched: ${e === null || e === void 0 ? void 0 : e.message}`);\n        }\n        return values;\n    }\n}\n\nconst parserObj = { signalParserRef: SignalParser };\n\nflow.set(\"parserClass\", parserObj);\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1280,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8772d0c4734fc97",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "d": true,
+        "name": "prepare for data transfer",
+        "func": "var full_signals = msg.payload;\nvar sig_names = Object.keys(full_signals);\n\nvar signalsObj = {};\n\nsig_names.forEach((name) => {\n    var signal = full_signals[name];\n    var data = signal.data;\n    var timestamps = new Array(data.length);\n    data.forEach((dat, idx) => {\n        timestamps[idx] = (signal.startTime)+(idx*4)\n    })\n    var newName = name.replace(/\"/g, '');\n    var finalName = newName.replace('.', '_');\n    \n    signalsObj[finalName] = {\n        'type': signal.type,\n        'data': data,\n        'time': timestamps\n    }\n\n});\n\nmsg.payload = signalsObj;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 3200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e9aab0b05e22ffe6",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "self-loop",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 180,
+        "wires": [
+            [
+                "1a4b829aa527d92c"
+            ]
+        ]
+    },
+    {
+        "id": "a623bc5cc385bbc1",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "prepare for livetwin",
+        "func": "if (msg.join == false) return null;\n\nvar trace = flow.get(\"trace_obj\");\n\nvar firstTime = Date.parse(msg.startTime);\nvar signals = trace[msg.startTime];\nvar trace_names = Object.keys(signals);\n\nvar cycle_time = msg.json_edge_buffer_file.cycletime;\n\nvar signalsObj = {};\nvar timeCalcDone = false;\nvar timestamps = [];\ntrace_names.forEach((name) => {\n    var signal = signals[name]\n    var data = signal.data;\n    if( timeCalcDone == false ){\n        data.forEach((dat, idx) => {\n            timestamps.push( (firstTime) + (idx * cycle_time) );\n        })\n        timeCalcDone = true;\n    }\n    var newName = name.replace(/\"/g, '');\n    var finalName = newName.replace('.', '_');\n\n    signalsObj[finalName] = {\n        'type': signal.type,\n        'data': data,\n        'time': timestamps\n    }\n\n});\n\nmsg.payload = signalsObj;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 3240,
+        "wires": [
+            [
+                "b84dbf081585190e"
+            ]
+        ]
+    },
+    {
+        "id": "0ffa407c61c854ca",
+        "type": "ui_led",
+        "z": "3cfe1d3910bcf87f",
+        "order": 5,
+        "group": "5042cb42624d31dd",
+        "width": 0,
+        "height": 0,
+        "label": "Data consistency",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff7300",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "data consistency",
+        "x": 770,
+        "y": 3500,
+        "wires": []
+    },
+    {
+        "id": "4e0b13f8aa957d30",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "get text ",
+        "func": "var crnt_cyc = flow.get(\"crnt_cycles\");\nmsg.payload = crnt_cyc;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 3660,
+        "wires": [
+            [
+                "200c9a9814b351bf"
+            ]
+        ]
+    },
+    {
+        "id": "200c9a9814b351bf",
+        "type": "ui_text",
+        "z": "3cfe1d3910bcf87f",
+        "group": "5042cb42624d31dd",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "MQTT counter",
+        "label": "MQTT messages received",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 940,
+        "y": 3660,
+        "wires": []
+    },
+    {
+        "id": "cedcbff8603d73c6",
+        "type": "ui_text",
+        "z": "3cfe1d3910bcf87f",
+        "group": "5042cb42624d31dd",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "parse counter",
+        "label": "MQTT messages parsed",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 940,
+        "y": 3720,
+        "wires": []
+    },
+    {
+        "id": "2af037c4fc85d3d5",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "get text ",
+        "func": "var cntr = flow.get(\"cntr_readfb\");\nmsg.payload = cntr;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 3720,
+        "wires": [
+            [
+                "cedcbff8603d73c6"
+            ]
+        ]
+    },
+    {
+        "id": "02f169fd75406718",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "get truth",
+        "func": "var signals = msg.payload;\n\nvar signal_names = Object.keys(signals);\n\nvar signal_lenDef = signals[signal_names[0]].data.length;\n\nsignal_names.forEach((name, idx) => {\n    var signal = signals[name].data;\n    if( signal.length != signal_lenDef ){\n        msg.payload = false;\n        return msg;\n    }\n})\n\nmsg.payload = true;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 3500,
+        "wires": [
+            [
+                "0ffa407c61c854ca"
+            ]
+        ]
+    },
+    {
+        "id": "ab380b88891d05d3",
+        "type": "status",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "scope": [
+            "75ea382a6d09151b"
+        ],
+        "x": 540,
+        "y": 3800,
+        "wires": [
+            [
+                "d16a51772c528c6d"
+            ]
+        ]
+    },
+    {
+        "id": "d16a51772c528c6d",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "mqtt status",
+        "func": "var status_text = msg.status.text.split('.');\nvar status = status_text[2];\n\nmsg.payload = status;\n\nvar disconnect = flow.get(\"disconnect_cntr\");\nif( status == 'disconnected'){\n    disconnect++;\n    flow.set(\"disconnect_cntr\", disconnect);\n}\n\nvar msg1 = { payload: disconnect }\n\nreturn [msg, msg1];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 3800,
+        "wires": [
+            [
+                "05c787d28ba4e65e"
+            ],
+            [
+                "9485d7fd1877d5ca"
+            ]
+        ]
+    },
+    {
+        "id": "05c787d28ba4e65e",
+        "type": "ui_led",
+        "z": "3cfe1d3910bcf87f",
+        "order": 1,
+        "group": "5042cb42624d31dd",
+        "width": 0,
+        "height": 0,
+        "label": "MQTT Connection Status",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "disconnected",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff9500",
+                "value": "connecting",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "connected",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showGlow": false,
+        "name": "mqtt status led",
+        "x": 940,
+        "y": 3800,
+        "wires": []
+    },
+    {
+        "id": "9485d7fd1877d5ca",
+        "type": "ui_text",
+        "z": "3cfe1d3910bcf87f",
+        "group": "5042cb42624d31dd",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "# of disconnections",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 950,
+        "y": 3840,
+        "wires": []
+    },
+    {
+        "id": "e29aae62e7164aa3",
+        "type": "status",
+        "z": "3cfe1d3910bcf87f",
+        "name": "current names",
+        "scope": [
+            "490171b753d64470",
+            "55fc9aeabde01e7d",
+            "aa240e2b4474a154",
+            "b1de7b9720230210",
+            "85e2e8d3fa5c07df",
+            "2f88f19dfc3af8e6",
+            "2a0ec8cb7d9bf717",
+            "14031a9309cabd5a",
+            "8fe8a09df5944d3d",
+            "e1a2e6aca311b7d8",
+            "088b1e4db6e8a115",
+            "ce4a39aa1c0bd407",
+            "1489c3dc19865cff",
+            "9a0134cd705d8bae",
+            "18ec30ef93278eeb"
+        ],
+        "x": 610,
+        "y": 3920,
+        "wires": [
+            [
+                "e2ed85b55080210f"
+            ]
+        ]
+    },
+    {
+        "id": "e2ed85b55080210f",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "store current selection",
+        "func": "var namesR = flow.get(\"realNames\");\nvar namesI = flow.get(\"intNames\");\nvar namesW = flow.get(\"wordNames\");\n\nvar crnt_names = flow.get(\"current_names\");\n\nvar place_pre  = msg.status.source.name.split(' ')\nvar type = place_pre[0];\nvar place = parseInt(place_pre[2]);\n\nvar index = parseInt(msg.status.text);\n\nswitch(type){\n    case 'Real':\n        var name_pre = Object.keys(namesR[index])[0];\n        var newName = name_pre.replace(/\"/g, '');\n        var finalName = newName.replace('.', '_');\n        crnt_names[place] = finalName;\n        break;\n    case 'Int':\n        var name_pre = Object.keys(namesI[index])[0];\n        var newName = name_pre.replace(/\"/g, '');\n        var finalName = newName.replace('.', '_');\n        crnt_names[place + 5] = finalName;\n        break;\n    case 'Word':\n        var name_pre = Object.keys(namesW[index])[0];\n        var newName = name_pre.replace(/\"/g, '');\n        var finalName = newName.replace('.', '_');\n        crnt_names[place + 10] = finalName;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 3920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2afbfb0d74165882",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "recordingDone",
+        "func": "if( msg.topic == 'joinData') msg.payload = true;\nelse msg.payload = false;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 3580,
+        "wires": [
+            [
+                "54fb4d187202bbb4"
+            ]
+        ]
+    },
+    {
+        "id": "54fb4d187202bbb4",
+        "type": "ui_led",
+        "z": "3cfe1d3910bcf87f",
+        "order": 5,
+        "group": "5042cb42624d31dd",
+        "width": 0,
+        "height": 0,
+        "label": "Recording Finished",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ffd60a",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "recording Done",
+        "x": 960,
+        "y": 3580,
+        "wires": []
+    },
+    {
+        "id": "26f8106c2eb09608",
+        "type": "debug",
+        "z": "3cfe1d3910bcf87f",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "76582125a0a81df3",
+        "type": "ui_text_input",
+        "z": "3cfe1d3910bcf87f",
+        "name": "IP address input",
+        "label": "IP address",
+        "tooltip": "",
+        "group": "e75ab9ccb7e774a4",
+        "order": 1,
+        "width": "6",
+        "height": 1,
+        "passthru": false,
+        "mode": "text",
+        "delay": "0",
+        "topic": "ip_address",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 300,
+        "y": 2360,
+        "wires": [
+            [
+                "1e826bf484640bd9"
+            ]
+        ]
+    },
+    {
+        "id": "1e826bf484640bd9",
+        "type": "function",
+        "z": "3cfe1d3910bcf87f",
+        "name": "save IP address ",
+        "func": "flow.set(\"ip_address\", msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 2320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31e359342488cfec",
+        "type": "catch",
+        "z": "3cfe1d3910bcf87f",
+        "name": "",
+        "scope": [
+            "7afefbd9d68a8d88"
+        ],
+        "uncaught": false,
+        "x": 1130,
+        "y": 2420,
+        "wires": [
+            [
+                "8d2195625c905279"
+            ]
+        ]
+    }
+]
