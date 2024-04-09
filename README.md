@@ -19,16 +19,16 @@ The document intends to provide a quick start guide for testing the library loca
 
 ## Description
 
-The SIMATIC library "LEdgeBuffer" allows creating a local buffer in the PLC to sample high speed signals (i.e. sampling period = 1ms). This buffer can be sent/read via MQTT, while the recording job can be accessed and controlled via HTTP.
+The SIMATIC library "LEdgeBuffer" allows creating a local buffer in the PLC to sample high speed signals (i.e. sampling period = 1ms). This buffer can be sent/read via MQTT, while the recording job can be accessed and controlled via HTTP (and partially with OPC-UA).
 
-The PLC library functions (FCs) work together with a Node-RED flow. This flow interacts with the PLC variables of the library to start the recording process and then collects the recorded data. The interaction is done by reading a datablock via OPC-UA, and then writing to it via HTTP, working as an interface for the PLC application and the user consuming the data from the buffer.
+The PLC library functions (FCs) work together with a Node-RED flow. This flow interacts with the PLC variables of the library to start the recording process and then collects the recorded data. The interaction is done by reading a datablock via OPC-UA, and then writing to it via HTTP, working as an interface for the PLC application and the user consuming the data from the buffer. Then, once the buffer is enabled, the stream of data will be received via the MQTT client within Node-Red.
 
 The Node-RED flow works as a gateway to publish the data from the PLC as a JSON file that can be sent to other devices via i.e. MQTT.
 
 
 ### Overview
 
-This how-to has been created as a straight forward example to sample PLC signals to the Edge environment in an asynchronous way, but preserving their timestamps as well. 
+This how-to has been created as a straight forward example to sample PLC signals to the Edge environment in an asynchronous way, even preserving their timestamps throughout the transfer process. 
 
 The purpose is to guide PLC users into the steps to connect their signals into the application "LEdgeBuffer" for the use case of reading the signals remotely and processing them into the Edge.
 
@@ -63,7 +63,7 @@ User should be familiar with:
 * TIA Portal  (>= V18)
 * PLC: CPU 1515TF-2 PN FW  (>= V3.0.3)
 
-If the user cannot get a SIEMENS industrial edge system, this example can also be done using Node-RED (with minor adjustments to some nodes)
+If the user cannot get a SIEMENS industrial Edge system, this example can also be done using Node-RED (with minor adjustments to some nodes) and a self-hosted MQTT server/broker.
 
 For installing node-red check the next link:
 * [Node-RED installation](https://nodered.org/docs/getting-started/local)
@@ -88,7 +88,7 @@ For installing node-red check the next link:
 
 9. Press install for each of the packages shown in the **Dependencies** tab (should appear after previous restart)
 
-10. Go to the MQTT-Configuration node, and enter the login info under the **Security** tab. (for successful MQTT connection)
+10. Go to the MQTT-Configuration node, and enter the login info under the **Security** tab (for successful MQTT connection). Do the same for the OPC-UA Configuration node serving as interface for the indicators of the dashboard. (The HTTPS login info can be changed in the UI)
 
 11. Then go to the MQTT-In node, and replace the topic property with your respective PLC topic. 
 
